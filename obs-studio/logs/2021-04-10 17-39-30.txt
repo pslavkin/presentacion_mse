@@ -1,0 +1,127 @@
+05:39:30 PM.564: CPU Name: AMD Phenom(tm) II X4 945 Processor
+05:39:30 PM.565: CPU Speed: 800.000MHz
+05:39:30 PM.565: Physical Cores: 4, Logical Cores: 4
+05:39:30 PM.565: Physical Memory: 5962MB Total, 3040MB Free
+05:39:30 PM.565: Kernel Version: Linux 4.19.0-10-amd64
+05:39:30 PM.565: Distribution: "Debian GNU/Linux" "10"
+05:39:30 PM.565: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.4
+05:39:30 PM.567: Portable mode: false
+05:39:30 PM.600: OBS 0.0.1 (linux)
+05:39:30 PM.600: ---------------------------------
+05:39:30 PM.910: ---------------------------------
+05:39:30 PM.910: audio settings reset:
+05:39:30 PM.910: 	samples per sec: 44100
+05:39:30 PM.910: 	speakers:        2
+05:39:30 PM.936: ---------------------------------
+05:39:30 PM.936: Initializing OpenGL...
+05:39:31 PM.009: Loading up OpenGL on adapter X.Org AMD CEDAR (DRM 2.50.0 / 4.19.0-10-amd64, LLVM 7.0.1)
+05:39:31 PM.009: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.6, shading language 3.30
+05:39:31 PM.112: ---------------------------------
+05:39:31 PM.112: video settings reset:
+05:39:31 PM.112: 	base resolution:   1920x1080
+05:39:31 PM.112: 	output resolution: 1920x1080
+05:39:31 PM.112: 	downscale filter:  Bicubic
+05:39:31 PM.112: 	fps:               30/1
+05:39:31 PM.112: 	format:            NV12
+05:39:31 PM.112: 	YUV mode:          601/Partial
+05:39:31 PM.114: Audio monitoring device:
+05:39:31 PM.114: 	name: Default
+05:39:31 PM.114: 	id: default
+05:39:31 PM.114: ---------------------------------
+05:39:31 PM.325: No blackmagic support
+05:39:31 PM.585: VLC found, VLC video source enabled
+05:39:31 PM.585: ---------------------------------
+05:39:31 PM.585:   Loaded Modules:
+05:39:31 PM.585:     vlc-video.so
+05:39:31 PM.585:     text-freetype2.so
+05:39:31 PM.585:     rtmp-services.so
+05:39:31 PM.585:     obs-x264.so
+05:39:31 PM.585:     obs-transitions.so
+05:39:31 PM.585:     obs-outputs.so
+05:39:31 PM.585:     obs-filters.so
+05:39:31 PM.585:     obs-ffmpeg.so
+05:39:31 PM.585:     linux-v4l2.so
+05:39:31 PM.585:     linux-pulseaudio.so
+05:39:31 PM.585:     linux-jack.so
+05:39:31 PM.585:     linux-decklink.so
+05:39:31 PM.585:     linux-capture.so
+05:39:31 PM.585:     linux-alsa.so
+05:39:31 PM.585:     image-source.so
+05:39:31 PM.585:     frontend-tools.so
+05:39:31 PM.585: ---------------------------------
+05:39:31 PM.585: ==== Startup complete ===============================================
+05:39:31 PM.585: Service '' not found
+05:39:31 PM.588: All scene data cleared
+05:39:31 PM.588: ------------------------------------------------
+05:39:31 PM.590: Source ID 'wasapi_output_capture' not found
+05:39:31 PM.590: Failed to create source 'Audio del escritorio'!
+05:39:31 PM.590: Source ID 'wasapi_input_capture' not found
+05:39:31 PM.590: Failed to create source 'Mic/Aux'!
+05:39:31 PM.590: [Media Source 'Media Source 2']: settings:
+05:39:31 PM.590: 	input:                   http://192.168.1.30:8080/video
+05:39:31 PM.590: 	input_format:            
+05:39:31 PM.590: 	speed:                   100
+05:39:31 PM.590: 	is_looping:              no
+05:39:31 PM.590: 	is_hw_decoding:          no
+05:39:31 PM.590: 	is_clear_on_media_end:   no
+05:39:31 PM.590: 	restart_on_activate:     no
+05:39:31 PM.590: 	close_when_inactive:     yes
+05:39:31 PM.590: Source ID 'window_capture' not found
+05:39:31 PM.590: Failed to create source 'Captura de ventana 2'!
+05:39:31 PM.591: Source ID 'virtualcam-filter' not found
+05:39:31 PM.592: Failed to create source 'VirtualCam'!
+05:39:31 PM.592: Source ID 'browser_source' not found
+05:39:31 PM.592: Failed to create source 'Navegador 2'!
+05:39:31 PM.592: Source ID 'virtualcam-filter' not found
+05:39:31 PM.592: Failed to create source 'VirtualCam'!
+05:39:31 PM.592: [Media Source 'Media Source']: settings:
+05:39:31 PM.592: 	input:                   http://192.168.1.200:8080/video
+05:39:31 PM.592: 	input_format:            
+05:39:31 PM.592: 	speed:                   100
+05:39:31 PM.592: 	is_looping:              no
+05:39:31 PM.592: 	is_hw_decoding:          no
+05:39:31 PM.592: 	is_clear_on_media_end:   yes
+05:39:31 PM.592: 	restart_on_activate:     yes
+05:39:31 PM.592: 	close_when_inactive:     yes
+05:39:31 PM.635: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+05:39:31 PM.635: 	title: nkHACK - Mozilla Firefox
+05:39:31 PM.635: 	class: Navigator
+05:39:31 PM.636: Switched to scene 'TITULO'
+05:39:31 PM.636: ------------------------------------------------
+05:39:31 PM.636: Loaded scenes:
+05:39:31 PM.636: - scene 'ARRIBA':
+05:39:31 PM.636:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+05:39:31 PM.636:     - source: 'Media Source' (ffmpeg_source)
+05:39:31 PM.636: - scene 'TITULO':
+05:39:31 PM.644:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+05:39:31 PM.644:     - source: 'Media Source' (ffmpeg_source)
+05:39:31 PM.644:     - source: 'Media Source 2' (ffmpeg_source)
+05:39:31 PM.644: - scene 'CAMARA':
+05:39:31 PM.644:     - source: 'Navegador 2' (browser_source)
+05:39:31 PM.644:         - filter: 'VirtualCam' (virtualcam-filter)
+05:39:31 PM.644: - scene 'CONSOLA':
+05:39:31 PM.644:     - source: 'Navegador 2' (browser_source)
+05:39:31 PM.645:         - filter: 'VirtualCam' (virtualcam-filter)
+05:39:31 PM.645:     - source: 'Captura de ventana 2' (window_capture)
+05:39:31 PM.645: ------------------------------------------------
+05:39:33 PM.756: User switched to scene 'TITULO'
+05:39:34 PM.282: User switched to scene 'ARRIBA'
+05:39:35 PM.085: User switched to scene 'TITULO'
+05:39:35 PM.869: User switched to scene 'ARRIBA'
+05:39:36 PM.447: User switched to scene 'TITULO'
+05:40:30 PM.534: User switched to scene 'TITULO'
+05:40:30 PM.792: User switched to scene 'ARRIBA'
+05:40:31 PM.021: User switched to scene 'ARRIBA'
+05:40:31 PM.789: User switched to scene 'TITULO'
+05:40:31 PM.814: User switched to scene 'ARRIBA'
+05:40:32 PM.144: User switched to scene 'TITULO'
+05:40:34 PM.862: User switched to scene 'TITULO'
+05:40:35 PM.273: User switched to scene 'ARRIBA'
+05:40:39 PM.787: User switched to scene 'TITULO'
+05:40:40 PM.265: User switched to scene 'ARRIBA'
+05:40:40 PM.830: User switched to scene 'TITULO'
+05:40:41 PM.391: User switched to scene 'ARRIBA'
+05:40:41 PM.589: User switched to scene 'ARRIBA'
+05:40:41 PM.828: User switched to scene 'TITULO'
+05:40:45 PM.101: User switched to scene 'TITULO'
+05:40:45 PM.333: User switched to scene 'ARRIBA'

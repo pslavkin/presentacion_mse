@@ -1,0 +1,1386 @@
+05:40:58 PM.581: CPU Name: AMD Phenom(tm) II X4 945 Processor
+05:40:58 PM.581: CPU Speed: 800.000MHz
+05:40:58 PM.581: Physical Cores: 4, Logical Cores: 4
+05:40:58 PM.581: Physical Memory: 5962MB Total, 2988MB Free
+05:40:58 PM.581: Kernel Version: Linux 4.19.0-10-amd64
+05:40:58 PM.581: Distribution: "Debian GNU/Linux" "10"
+05:40:58 PM.581: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.4
+05:40:58 PM.583: Portable mode: false
+05:40:58 PM.616: OBS 0.0.1 (linux)
+05:40:58 PM.616: ---------------------------------
+05:40:58 PM.874: ---------------------------------
+05:40:58 PM.874: audio settings reset:
+05:40:58 PM.874: 	samples per sec: 44100
+05:40:58 PM.874: 	speakers:        2
+05:40:58 PM.894: ---------------------------------
+05:40:58 PM.895: Initializing OpenGL...
+05:40:58 PM.968: Loading up OpenGL on adapter X.Org AMD CEDAR (DRM 2.50.0 / 4.19.0-10-amd64, LLVM 7.0.1)
+05:40:58 PM.968: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.6, shading language 3.30
+05:40:59 PM.000: ---------------------------------
+05:40:59 PM.000: video settings reset:
+05:40:59 PM.000: 	base resolution:   1920x1080
+05:40:59 PM.000: 	output resolution: 1920x1080
+05:40:59 PM.000: 	downscale filter:  Bicubic
+05:40:59 PM.000: 	fps:               30/1
+05:40:59 PM.000: 	format:            NV12
+05:40:59 PM.000: 	YUV mode:          601/Partial
+05:40:59 PM.002: Audio monitoring device:
+05:40:59 PM.002: 	name: Default
+05:40:59 PM.002: 	id: default
+05:40:59 PM.002: ---------------------------------
+05:40:59 PM.138: No blackmagic support
+05:40:59 PM.242: VLC found, VLC video source enabled
+05:40:59 PM.243: ---------------------------------
+05:40:59 PM.243:   Loaded Modules:
+05:40:59 PM.243:     vlc-video.so
+05:40:59 PM.243:     text-freetype2.so
+05:40:59 PM.243:     rtmp-services.so
+05:40:59 PM.243:     obs-x264.so
+05:40:59 PM.243:     obs-transitions.so
+05:40:59 PM.243:     obs-outputs.so
+05:40:59 PM.243:     obs-filters.so
+05:40:59 PM.243:     obs-ffmpeg.so
+05:40:59 PM.243:     linux-v4l2.so
+05:40:59 PM.243:     linux-pulseaudio.so
+05:40:59 PM.243:     linux-jack.so
+05:40:59 PM.243:     linux-decklink.so
+05:40:59 PM.243:     linux-capture.so
+05:40:59 PM.243:     linux-alsa.so
+05:40:59 PM.243:     image-source.so
+05:40:59 PM.243:     frontend-tools.so
+05:40:59 PM.243: ---------------------------------
+05:40:59 PM.243: ==== Startup complete ===============================================
+05:40:59 PM.243: Service '' not found
+05:40:59 PM.246: All scene data cleared
+05:40:59 PM.246: ------------------------------------------------
+05:40:59 PM.247: Source ID 'wasapi_output_capture' not found
+05:40:59 PM.247: Failed to create source 'Audio del escritorio'!
+05:40:59 PM.247: Source ID 'wasapi_input_capture' not found
+05:40:59 PM.247: Failed to create source 'Mic/Aux'!
+05:40:59 PM.248: [Media Source 'Media Source 2']: settings:
+05:40:59 PM.248: 	input:                   http://192.168.1.30:8080/video
+05:40:59 PM.248: 	input_format:            
+05:40:59 PM.248: 	speed:                   100
+05:40:59 PM.248: 	is_looping:              no
+05:40:59 PM.248: 	is_hw_decoding:          no
+05:40:59 PM.248: 	is_clear_on_media_end:   no
+05:40:59 PM.248: 	restart_on_activate:     no
+05:40:59 PM.248: 	close_when_inactive:     yes
+05:40:59 PM.248: Source ID 'window_capture' not found
+05:40:59 PM.248: Failed to create source 'Captura de ventana 2'!
+05:40:59 PM.249: Source ID 'virtualcam-filter' not found
+05:40:59 PM.249: Failed to create source 'VirtualCam'!
+05:40:59 PM.249: Source ID 'browser_source' not found
+05:40:59 PM.249: Failed to create source 'Navegador 2'!
+05:40:59 PM.249: Source ID 'virtualcam-filter' not found
+05:40:59 PM.249: Failed to create source 'VirtualCam'!
+05:40:59 PM.250: [Media Source 'Media Source']: settings:
+05:40:59 PM.250: 	input:                   http://192.168.1.200:8080/video
+05:40:59 PM.250: 	input_format:            
+05:40:59 PM.250: 	speed:                   100
+05:40:59 PM.250: 	is_looping:              no
+05:40:59 PM.250: 	is_hw_decoding:          no
+05:40:59 PM.250: 	is_clear_on_media_end:   yes
+05:40:59 PM.250: 	restart_on_activate:     yes
+05:40:59 PM.250: 	close_when_inactive:     yes
+05:40:59 PM.297: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+05:40:59 PM.297: 	title: nkHACK - Mozilla Firefox
+05:40:59 PM.297: 	class: Navigator
+05:40:59 PM.299: Switched to scene 'TITULO'
+05:40:59 PM.299: ------------------------------------------------
+05:40:59 PM.299: Loaded scenes:
+05:40:59 PM.299: - scene 'ARRIBA':
+05:40:59 PM.300:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+05:40:59 PM.300:     - source: 'Media Source' (ffmpeg_source)
+05:40:59 PM.300: - scene 'TITULO':
+05:40:59 PM.300:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+05:40:59 PM.300:     - source: 'Media Source' (ffmpeg_source)
+05:40:59 PM.300:     - source: 'Media Source 2' (ffmpeg_source)
+05:40:59 PM.300: - scene 'CAMARA':
+05:40:59 PM.300:     - source: 'Navegador 2' (browser_source)
+05:40:59 PM.300:         - filter: 'VirtualCam' (virtualcam-filter)
+05:40:59 PM.300: - scene 'CONSOLA':
+05:40:59 PM.300:     - source: 'Navegador 2' (browser_source)
+05:40:59 PM.300:         - filter: 'VirtualCam' (virtualcam-filter)
+05:40:59 PM.300:     - source: 'Captura de ventana 2' (window_capture)
+05:40:59 PM.300: ------------------------------------------------
+05:41:51 PM.265: Settings changed (hotkeys)
+05:41:51 PM.266: ------------------------------------------------
+05:41:52 PM.546: Switched to Preview/Program mode
+05:41:52 PM.546: ------------------------------------------------
+05:41:52 PM.971: User switched to scene 'ARRIBA'
+05:41:53 PM.406: User switched to scene 'TITULO'
+05:41:53 PM.783: User switched to scene 'ARRIBA'
+05:41:56 PM.945: Switched to scene 'TITULO'
+05:41:56 PM.946: Switched to regular Preview mode
+05:41:56 PM.946: ------------------------------------------------
+05:42:01 PM.038: Switched to Preview/Program mode
+05:42:01 PM.038: ------------------------------------------------
+05:42:01 PM.559: Switched to scene 'TITULO'
+05:42:01 PM.560: Switched to regular Preview mode
+05:42:01 PM.560: ------------------------------------------------
+05:42:01 PM.907: User switched to scene 'TITULO'
+05:42:01 PM.917: User switched to scene 'ARRIBA'
+05:42:01 PM.925: User switched to scene 'TITULO'
+05:42:02 PM.025: User switched to scene 'ARRIBA'
+05:42:02 PM.189: User switched to scene 'TITULO'
+05:42:02 PM.644: User switched to scene 'ARRIBA'
+05:42:02 PM.908: User switched to scene 'TITULO'
+05:42:03 PM.330: User switched to scene 'ARRIBA'
+05:42:03 PM.566: User switched to scene 'TITULO'
+05:42:21 PM.604: User switched to scene 'TITULO'
+05:42:22 PM.018: User switched to scene 'ARRIBA'
+05:42:22 PM.716: User switched to scene 'TITULO'
+05:47:27 PM.663: ---------------------------------
+05:47:27 PM.663: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+05:47:27 PM.663: [x264 encoder: 'simple_h264_recording'] profile: high
+05:47:27 PM.663: [x264 encoder: 'simple_h264_recording'] settings:
+05:47:27 PM.663: 	rate_control: CRF
+05:47:27 PM.663: 	bitrate:      0
+05:47:27 PM.663: 	buffer size:  0
+05:47:27 PM.663: 	crf:          23
+05:47:27 PM.663: 	fps_num:      30
+05:47:27 PM.663: 	fps_den:      1
+05:47:27 PM.663: 	width:        1920
+05:47:27 PM.663: 	height:       1080
+05:47:27 PM.663: 	keyint:       250
+05:47:27 PM.663: 
+05:47:27 PM.680: ---------------------------------
+05:47:27 PM.681: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+05:47:27 PM.681: 
+05:47:27 PM.696: ==== Recording Start ===============================================
+05:47:27 PM.696: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 17-47-27.mp4'...
+05:47:31 PM.663: User switched to scene 'TITULO'
+05:47:32 PM.648: User switched to scene 'ARRIBA'
+05:47:39 PM.035: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 17-47-27.mp4' stopped
+05:47:39 PM.036: Output 'simple_file_output': stopping
+05:47:39 PM.036: Output 'simple_file_output': Total frames output: 315
+05:47:39 PM.036: Output 'simple_file_output': Total drawn frames: 338 (341 attempted)
+05:47:39 PM.036: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 3 (0.9%)
+05:47:39 PM.036: ==== Recording Stop ================================================
+05:47:43 PM.235: ---------------------------------
+05:47:43 PM.236: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+05:47:43 PM.236: [x264 encoder: 'simple_h264_stream'] settings:
+05:47:43 PM.236: 	rate_control: CBR
+05:47:43 PM.236: 	bitrate:      2500
+05:47:43 PM.236: 	buffer size:  2500
+05:47:43 PM.236: 	crf:          0
+05:47:43 PM.236: 	fps_num:      30
+05:47:43 PM.236: 	fps_den:      1
+05:47:43 PM.236: 	width:        1920
+05:47:43 PM.236: 	height:       1080
+05:47:43 PM.236: 	keyint:       250
+05:47:43 PM.236: 
+05:47:43 PM.249: ---------------------------------
+05:47:43 PM.249: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+05:47:43 PM.249: 
+05:47:43 PM.252: [rtmp stream: 'simple_stream'] URL is empty
+05:47:43 PM.252: [rtmp stream: 'simple_stream'] Connection to (null) failed: -1
+05:47:43 PM.253: ==== Streaming Stop ================================================
+05:47:50 PM.214: ---------------------------------
+05:47:50 PM.214: [x264 encoder: 'simple_h264_stream'] settings:
+05:47:50 PM.214: 	rate_control: CBR
+05:47:50 PM.214: 	bitrate:      2500
+05:47:50 PM.214: 	buffer size:  2500
+05:47:50 PM.214: 	crf:          0
+05:47:50 PM.214: 	fps_num:      30
+05:47:50 PM.214: 	fps_den:      1
+05:47:50 PM.214: 	width:        1920
+05:47:50 PM.214: 	height:       1080
+05:47:50 PM.214: 	keyint:       250
+05:47:50 PM.214: 
+05:47:50 PM.215: ---------------------------------
+05:47:50 PM.215: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+05:47:50 PM.215: [x264 encoder: 'simple_h264_recording'] profile: high
+05:47:50 PM.215: [x264 encoder: 'simple_h264_recording'] settings:
+05:47:50 PM.215: 	rate_control: CRF
+05:47:50 PM.215: 	bitrate:      0
+05:47:50 PM.215: 	buffer size:  0
+05:47:50 PM.215: 	crf:          23
+05:47:50 PM.215: 	fps_num:      30
+05:47:50 PM.215: 	fps_den:      1
+05:47:50 PM.215: 	width:        1920
+05:47:50 PM.215: 	height:       1080
+05:47:50 PM.215: 	keyint:       250
+05:47:50 PM.215: 
+05:47:50 PM.229: ---------------------------------
+05:47:50 PM.229: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+05:47:50 PM.229: 
+05:47:50 PM.246: ==== Recording Start ===============================================
+05:47:50 PM.246: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 17-47-50.mp4'...
+05:48:35 PM.183: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 17-47-50.mp4' stopped
+05:48:35 PM.183: Output 'simple_file_output': stopping
+05:48:35 PM.183: Output 'simple_file_output': Total frames output: 1323
+05:48:35 PM.183: Output 'simple_file_output': Total drawn frames: 1341 (1348 attempted)
+05:48:35 PM.183: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 7 (0.5%)
+05:48:35 PM.183: ==== Recording Stop ================================================
+05:48:35 PM.522: ---------------------------------
+05:48:35 PM.522: [x264 encoder: 'simple_h264_stream'] settings:
+05:48:35 PM.522: 	rate_control: CBR
+05:48:35 PM.522: 	bitrate:      2500
+05:48:35 PM.522: 	buffer size:  2500
+05:48:35 PM.522: 	crf:          0
+05:48:35 PM.522: 	fps_num:      30
+05:48:35 PM.522: 	fps_den:      1
+05:48:35 PM.522: 	width:        1920
+05:48:35 PM.522: 	height:       1080
+05:48:35 PM.522: 	keyint:       250
+05:48:35 PM.522: 
+05:48:35 PM.522: ---------------------------------
+05:48:35 PM.522: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+05:48:35 PM.522: [x264 encoder: 'simple_h264_recording'] profile: high
+05:48:35 PM.522: [x264 encoder: 'simple_h264_recording'] settings:
+05:48:35 PM.522: 	rate_control: CRF
+05:48:35 PM.522: 	bitrate:      0
+05:48:35 PM.522: 	buffer size:  0
+05:48:35 PM.522: 	crf:          23
+05:48:35 PM.522: 	fps_num:      30
+05:48:35 PM.522: 	fps_den:      1
+05:48:35 PM.522: 	width:        1920
+05:48:35 PM.522: 	height:       1080
+05:48:35 PM.522: 	keyint:       250
+05:48:35 PM.522: 
+05:48:35 PM.535: ---------------------------------
+05:48:35 PM.535: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+05:48:35 PM.535: 
+05:48:35 PM.554: ==== Recording Start ===============================================
+05:48:35 PM.554: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 17-48-35.mp4'...
+05:48:39 PM.636: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 17-48-35.mp4' stopped
+05:48:39 PM.636: Output 'simple_file_output': stopping
+05:48:39 PM.636: Output 'simple_file_output': Total frames output: 99
+05:48:39 PM.636: Output 'simple_file_output': Total drawn frames: 123
+05:48:39 PM.637: ==== Recording Stop ================================================
+05:48:41 PM.073: ---------------------------------
+05:48:41 PM.073: [x264 encoder: 'simple_h264_stream'] settings:
+05:48:41 PM.073: 	rate_control: CBR
+05:48:41 PM.073: 	bitrate:      2500
+05:48:41 PM.073: 	buffer size:  2500
+05:48:41 PM.073: 	crf:          0
+05:48:41 PM.073: 	fps_num:      30
+05:48:41 PM.073: 	fps_den:      1
+05:48:41 PM.073: 	width:        1920
+05:48:41 PM.073: 	height:       1080
+05:48:41 PM.073: 	keyint:       250
+05:48:41 PM.073: 
+05:48:41 PM.074: ---------------------------------
+05:48:41 PM.074: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+05:48:41 PM.074: [x264 encoder: 'simple_h264_recording'] profile: high
+05:48:41 PM.074: [x264 encoder: 'simple_h264_recording'] settings:
+05:48:41 PM.074: 	rate_control: CRF
+05:48:41 PM.074: 	bitrate:      0
+05:48:41 PM.074: 	buffer size:  0
+05:48:41 PM.074: 	crf:          23
+05:48:41 PM.074: 	fps_num:      30
+05:48:41 PM.074: 	fps_den:      1
+05:48:41 PM.074: 	width:        1920
+05:48:41 PM.074: 	height:       1080
+05:48:41 PM.074: 	keyint:       250
+05:48:41 PM.074: 
+05:48:41 PM.083: ---------------------------------
+05:48:41 PM.083: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+05:48:41 PM.083: 
+05:48:41 PM.099: ==== Recording Start ===============================================
+05:48:41 PM.099: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 17-48-41.mp4'...
+05:49:57 PM.774: User switched to scene 'TITULO'
+05:50:24 PM.756: User switched to scene 'TITULO'
+05:50:26 PM.857: User switched to scene 'ARRIBA'
+05:57:08 PM.702: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 17-48-41.mp4' stopped
+05:57:08 PM.702: Output 'simple_file_output': stopping
+05:57:08 PM.702: Output 'simple_file_output': Total frames output: 15200
+05:57:08 PM.702: Output 'simple_file_output': Total drawn frames: 14518 (15228 attempted)
+05:57:08 PM.702: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 710 (4.7%)
+05:57:08 PM.702: ==== Recording Stop ================================================
+06:10:02 PM.712: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:10:02 PM.712: 	title: nkHACK - Mozilla Firefox
+06:10:02 PM.712: 	class: Navigator
+06:11:22 PM.435: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:11:22 PM.435: 	title: nkHACK - Mozilla Firefox
+06:11:22 PM.435: 	class: Navigator
+06:57:53 PM.970: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:57:53 PM.970: 	title: nkHACK - Mozilla Firefox
+06:57:53 PM.970: 	class: Navigator
+06:57:53 PM.982: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+06:57:53 PM.982: 	title: nkHACK - Mozilla Firefox
+06:57:53 PM.982: 	class: Navigator
+07:03:12 PM.600: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:03:12 PM.600: 	title: nkHACK - Mozilla Firefox
+07:03:12 PM.600: 	class: Navigator
+07:03:15 PM.332: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:03:15 PM.332: 	title: nkHACK - Mozilla Firefox
+07:03:15 PM.332: 	class: Navigator
+07:09:30 PM.904: User switched to scene 'TITULO'
+07:09:31 PM.639: User switched to scene 'ARRIBA'
+07:09:32 PM.908: User switched to scene 'ARRIBA'
+07:09:35 PM.493: User switched to scene 'ARRIBA'
+07:09:36 PM.091: User switched to scene 'TITULO'
+07:09:37 PM.964: User switched to scene 'TITULO'
+07:09:41 PM.178: User switched to scene 'ARRIBA'
+07:09:44 PM.548: User switched to scene 'TITULO'
+07:11:14 PM.574: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:11:14 PM.574: 	title: nkHACK - Mozilla Firefox
+07:11:14 PM.574: 	class: Navigator
+07:11:14 PM.642: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:11:14 PM.642: 	title: nkHACK - Mozilla Firefox
+07:11:14 PM.642: 	class: Navigator
+07:12:58 PM.447: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:12:58 PM.447: 	title: nkHACK - Mozilla Firefox
+07:12:58 PM.447: 	class: Navigator
+07:17:04 PM.116: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:17:04 PM.116: 	title: nkHACK - Mozilla Firefox
+07:17:04 PM.116: 	class: Navigator
+07:21:48 PM.247: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:21:48 PM.247: 	title: IP Webcam - Mozilla Firefox
+07:21:48 PM.247: 	class: Navigator
+07:24:26 PM.709: User switched to scene 'TITULO'
+07:24:27 PM.397: User switched to scene 'ARRIBA'
+07:24:38 PM.099: User switched to scene 'ARRIBA'
+07:24:38 PM.707: User switched to scene 'TITULO'
+07:24:49 PM.972: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:24:49 PM.972: 	title: xfce4-panel
+07:24:49 PM.972: 	class: xfce4-panel
+07:24:52 PM.714: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:24:52 PM.714: 	title: nkHACK - Mozilla Firefox
+07:24:52 PM.714: 	class: Navigator
+07:25:59 PM.233: [Media Source 'Media Source 2']: settings:
+07:25:59 PM.233: 	input:                   http://192.168.1.31:8080/streanVideo
+07:25:59 PM.233: 	input_format:            
+07:25:59 PM.233: 	speed:                   100
+07:25:59 PM.233: 	is_looping:              no
+07:25:59 PM.233: 	is_hw_decoding:          no
+07:25:59 PM.233: 	is_clear_on_media_end:   no
+07:25:59 PM.233: 	restart_on_activate:     no
+07:25:59 PM.233: 	close_when_inactive:     yes
+07:25:59 PM.807: MP: Failed to open media: 'http://192.168.1.31:8080/streanVideo'
+07:26:17 PM.469: [Media Source 'Media Source 2']: settings:
+07:26:17 PM.469: 	input:                   http://192.168.1.31:8080/streamVideo
+07:26:17 PM.469: 	input_format:            
+07:26:17 PM.469: 	speed:                   100
+07:26:17 PM.469: 	is_looping:              no
+07:26:17 PM.469: 	is_hw_decoding:          no
+07:26:17 PM.469: 	is_clear_on_media_end:   no
+07:26:17 PM.469: 	restart_on_activate:     no
+07:26:17 PM.469: 	close_when_inactive:     yes
+07:26:18 PM.103: MP: av_read_frame failed: Invalid data found when processing input (-1094995529)
+07:27:09 PM.042: [Media Source 'Media Source 2']: settings:
+07:27:09 PM.042: 	input:                   http://192.168.1.31:8080/streamVideo
+07:27:09 PM.042: 	input_format:            
+07:27:09 PM.042: 	speed:                   100
+07:27:09 PM.042: 	is_looping:              no
+07:27:09 PM.042: 	is_hw_decoding:          yes
+07:27:09 PM.042: 	is_clear_on_media_end:   yes
+07:27:09 PM.042: 	restart_on_activate:     yes
+07:27:09 PM.042: 	close_when_inactive:     yes
+07:27:09 PM.603: MP: av_read_frame failed: Invalid data found when processing input (-1094995529)
+07:27:16 PM.840: [Media Source 'Media Source 2']: settings:
+07:27:16 PM.840: 	input:                   http://192.168.1.31:8080/streamVideo
+07:27:16 PM.840: 	input_format:            
+07:27:16 PM.840: 	speed:                   100
+07:27:16 PM.840: 	is_looping:              no
+07:27:16 PM.840: 	is_hw_decoding:          yes
+07:27:16 PM.840: 	is_clear_on_media_end:   no
+07:27:16 PM.840: 	restart_on_activate:     yes
+07:27:16 PM.840: 	close_when_inactive:     yes
+07:27:17 PM.408: MP: av_read_frame failed: Invalid data found when processing input (-1094995529)
+07:27:22 PM.204: [Media Source 'Media Source 2']: settings:
+07:27:22 PM.204: 	input:                   http://192.168.1.31:8080/streamVideo
+07:27:22 PM.204: 	input_format:            
+07:27:22 PM.204: 	speed:                   100
+07:27:22 PM.204: 	is_looping:              no
+07:27:22 PM.204: 	is_hw_decoding:          no
+07:27:22 PM.204: 	is_clear_on_media_end:   no
+07:27:22 PM.204: 	restart_on_activate:     yes
+07:27:22 PM.204: 	close_when_inactive:     yes
+07:27:22 PM.665: MP: av_read_frame failed: Invalid data found when processing input (-1094995529)
+07:27:39 PM.103: [Media Source 'Media Source 2']: settings:
+07:27:39 PM.103: 	input:                   http://192.168.1.31:8080/streamVideo
+07:27:39 PM.103: 	input_format:            
+07:27:39 PM.103: 	speed:                   100
+07:27:39 PM.103: 	is_looping:              no
+07:27:39 PM.103: 	is_hw_decoding:          no
+07:27:39 PM.103: 	is_clear_on_media_end:   no
+07:27:39 PM.103: 	restart_on_activate:     yes
+07:27:39 PM.103: 	close_when_inactive:     yes
+07:27:39 PM.984: MP: av_read_frame failed: Invalid data found when processing input (-1094995529)
+07:28:34 PM.869: [Media Source 'Media Source 2']: settings:
+07:28:34 PM.869: 	input:                   http://192.168.1.30:8080/video
+07:28:34 PM.869: 	input_format:            
+07:28:34 PM.869: 	speed:                   100
+07:28:34 PM.869: 	is_looping:              no
+07:28:34 PM.869: 	is_hw_decoding:          no
+07:28:34 PM.869: 	is_clear_on_media_end:   no
+07:28:34 PM.869: 	restart_on_activate:     yes
+07:28:34 PM.869: 	close_when_inactive:     yes
+07:28:41 PM.454: User switched to scene 'TITULO'
+07:28:41 PM.769: User switched to scene 'ARRIBA'
+07:28:42 PM.128: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+07:29:09 PM.744: User switched to scene 'ARRIBA'
+07:29:10 PM.387: User switched to scene 'TITULO'
+07:29:10 PM.888: User switched to scene 'ARRIBA'
+07:29:12 PM.584: User switched to scene 'TITULO'
+07:29:15 PM.773: User switched to scene 'ARRIBA'
+07:29:18 PM.020: User switched to scene 'TITULO'
+07:29:20 PM.033: User switched to scene 'ARRIBA'
+07:29:21 PM.420: User switched to scene 'TITULO'
+07:30:07 PM.281: User switched to scene 'ARRIBA'
+07:30:50 PM.033: User switched to scene 'ARRIBA'
+07:30:50 PM.597: User switched to scene 'TITULO'
+07:31:08 PM.112: ---------------------------------
+07:31:08 PM.112: [x264 encoder: 'simple_h264_stream'] settings:
+07:31:08 PM.112: 	rate_control: CBR
+07:31:08 PM.112: 	bitrate:      2500
+07:31:08 PM.112: 	buffer size:  2500
+07:31:08 PM.112: 	crf:          0
+07:31:08 PM.112: 	fps_num:      30
+07:31:08 PM.112: 	fps_den:      1
+07:31:08 PM.112: 	width:        1920
+07:31:08 PM.112: 	height:       1080
+07:31:08 PM.112: 	keyint:       250
+07:31:08 PM.112: 
+07:31:08 PM.112: ---------------------------------
+07:31:08 PM.112: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+07:31:08 PM.112: [x264 encoder: 'simple_h264_recording'] profile: high
+07:31:08 PM.112: [x264 encoder: 'simple_h264_recording'] settings:
+07:31:08 PM.112: 	rate_control: CRF
+07:31:08 PM.112: 	bitrate:      0
+07:31:08 PM.112: 	buffer size:  0
+07:31:08 PM.112: 	crf:          23
+07:31:08 PM.112: 	fps_num:      30
+07:31:08 PM.112: 	fps_den:      1
+07:31:08 PM.112: 	width:        1920
+07:31:08 PM.112: 	height:       1080
+07:31:08 PM.112: 	keyint:       250
+07:31:08 PM.112: 
+07:31:08 PM.127: ---------------------------------
+07:31:08 PM.128: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+07:31:08 PM.128: 
+07:31:08 PM.157: ==== Recording Start ===============================================
+07:31:08 PM.157: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 19-31-08.mp4'...
+07:32:05 PM.943: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 19-31-08.mp4' stopped
+07:32:05 PM.943: Output 'simple_file_output': stopping
+07:32:05 PM.943: Output 'simple_file_output': Total frames output: 1708
+07:32:05 PM.943: Output 'simple_file_output': Total drawn frames: 1708 (1733 attempted)
+07:32:05 PM.943: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 25 (1.4%)
+07:32:05 PM.944: ==== Recording Stop ================================================
+07:32:35 PM.271: [Media Source 'Media Source 2']: settings:
+07:32:35 PM.271: 	input:                   http://192.168.1.30:8080/video
+07:32:35 PM.271: 	input_format:            
+07:32:35 PM.271: 	speed:                   100
+07:32:35 PM.271: 	is_looping:              no
+07:32:35 PM.271: 	is_hw_decoding:          no
+07:32:35 PM.271: 	is_clear_on_media_end:   no
+07:32:35 PM.271: 	restart_on_activate:     no
+07:32:35 PM.271: 	close_when_inactive:     yes
+07:33:00 PM.310: [Media Source 'Media Source']: settings:
+07:33:00 PM.310: 	input:                   http://192.168.1.200:8080/video
+07:33:00 PM.310: 	input_format:            
+07:33:00 PM.310: 	speed:                   100
+07:33:00 PM.310: 	is_looping:              no
+07:33:00 PM.310: 	is_hw_decoding:          no
+07:33:00 PM.310: 	is_clear_on_media_end:   no
+07:33:00 PM.310: 	restart_on_activate:     no
+07:33:00 PM.310: 	close_when_inactive:     yes
+07:36:14 PM.839: ---------------------------------
+07:36:14 PM.840: [x264 encoder: 'simple_h264_stream'] settings:
+07:36:14 PM.840: 	rate_control: CBR
+07:36:14 PM.840: 	bitrate:      2500
+07:36:14 PM.840: 	buffer size:  2500
+07:36:14 PM.840: 	crf:          0
+07:36:14 PM.840: 	fps_num:      30
+07:36:14 PM.840: 	fps_den:      1
+07:36:14 PM.840: 	width:        1920
+07:36:14 PM.840: 	height:       1080
+07:36:14 PM.840: 	keyint:       250
+07:36:14 PM.840: 
+07:36:14 PM.840: ---------------------------------
+07:36:14 PM.840: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+07:36:14 PM.840: [x264 encoder: 'simple_h264_recording'] profile: high
+07:36:14 PM.841: [x264 encoder: 'simple_h264_recording'] settings:
+07:36:14 PM.841: 	rate_control: CRF
+07:36:14 PM.841: 	bitrate:      0
+07:36:14 PM.841: 	buffer size:  0
+07:36:14 PM.841: 	crf:          23
+07:36:14 PM.841: 	fps_num:      30
+07:36:14 PM.841: 	fps_den:      1
+07:36:14 PM.841: 	width:        1920
+07:36:14 PM.841: 	height:       1080
+07:36:14 PM.841: 	keyint:       250
+07:36:14 PM.841: 
+07:36:14 PM.855: ---------------------------------
+07:36:14 PM.855: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+07:36:14 PM.855: 
+07:36:14 PM.888: ==== Recording Start ===============================================
+07:36:14 PM.888: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 19-36-14.mp4'...
+07:36:51 PM.171: User switched to scene 'TITULO'
+07:36:53 PM.411: User switched to scene 'TITULO'
+07:36:54 PM.530: User switched to scene 'ARRIBA'
+07:42:30 PM.535: User switched to scene 'ARRIBA'
+07:42:36 PM.733: User switched to scene 'TITULO'
+07:42:41 PM.502: User switched to scene 'ARRIBA'
+07:43:21 PM.955: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 19-36-14.mp4' stopped
+07:43:21 PM.955: Output 'simple_file_output': stopping
+07:43:21 PM.955: Output 'simple_file_output': Total frames output: 12781
+07:43:21 PM.955: Output 'simple_file_output': Total drawn frames: 11973 (12811 attempted)
+07:43:21 PM.955: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 838 (6.5%)
+07:43:21 PM.956: ==== Recording Stop ================================================
+07:45:52 PM.693: User switched to scene 'ARRIBA'
+07:45:53 PM.181: Switched to Preview/Program mode
+07:45:53 PM.181: ------------------------------------------------
+07:45:55 PM.046: Switched to scene 'ARRIBA'
+07:45:55 PM.048: Switched to regular Preview mode
+07:45:55 PM.048: ------------------------------------------------
+07:45:55 PM.753: User switched to scene 'ARRIBA'
+07:45:56 PM.407: User switched to scene 'TITULO'
+07:46:20 PM.237: User switched to scene 'ARRIBA'
+07:49:10 PM.774: User switched to scene 'ARRIBA'
+07:49:11 PM.543: User switched to scene 'TITULO'
+07:49:35 PM.101: User switched to scene 'CAMARA'
+07:49:40 PM.789: User Removed source 'Navegador 2' (browser_source) from scene 'CAMARA'
+07:49:41 PM.658: User switched to scene 'TITULO'
+07:49:47 PM.499: User switched to scene 'CAMARA'
+07:49:51 PM.445: User switched to scene 'TITULO'
+07:49:53 PM.784: User switched to scene 'CAMARA'
+07:49:55 PM.534: User switched to scene 'TITULO'
+07:50:00 PM.575: User switched to scene 'CAMARA'
+07:50:02 PM.745: User added source 'Media Source 2' (ffmpeg_source) to scene 'CAMARA'
+07:51:30 PM.195: Settings changed (hotkeys)
+07:51:30 PM.195: ------------------------------------------------
+07:51:34 PM.272: User switched to scene 'TITULO'
+07:51:35 PM.016: User switched to scene 'ARRIBA'
+07:51:36 PM.318: User switched to scene 'TITULO'
+07:51:37 PM.547: User switched to scene 'ARRIBA'
+07:51:38 PM.163: User switched to scene 'CAMARA'
+07:51:42 PM.095: User switched to scene 'TITULO'
+07:51:45 PM.620: User switched to scene 'CAMARA'
+07:51:46 PM.417: User added source 'Media Source 2' (ffmpeg_source) to scene 'CAMARA'
+07:52:09 PM.899: User switched to scene 'TITULO'
+07:52:15 PM.404: User switched to scene 'CAMARA'
+07:52:16 PM.325: User added source 'Media Source 2' (ffmpeg_source) to scene 'CAMARA'
+07:52:21 PM.852: User switched to scene 'CONSOLA'
+07:52:21 PM.858: User Removed scene 'CAMARA'
+07:52:35 PM.809: User added scene 'camara'
+07:52:35 PM.810: User switched to scene 'camara'
+07:52:38 PM.226: User added source 'Media Source 2' (ffmpeg_source) to scene 'camara'
+07:52:38 PM.641: User added source 'Media Source 2' (ffmpeg_source) to scene 'camara'
+07:52:41 PM.308: User switched to scene 'CONSOLA'
+07:52:42 PM.104: User switched to scene 'TITULO'
+07:52:43 PM.705: User switched to scene 'camara'
+07:52:48 PM.020: User switched to scene 'TITULO'
+07:52:49 PM.852: User switched to scene 'camara'
+07:52:51 PM.844: User switched to scene 'TITULO'
+07:52:56 PM.312: User switched to scene 'camara'
+07:52:57 PM.747: User added source 'Media Source' (ffmpeg_source) to scene 'camara'
+07:55:33 PM.266: User switched to scene 'TITULO'
+07:55:33 PM.843: User switched to scene 'ARRIBA'
+07:55:53 PM.417: Settings changed (hotkeys)
+07:55:53 PM.417: ------------------------------------------------
+07:55:54 PM.752: User switched to scene 'camara'
+07:55:55 PM.732: User switched to scene 'TITULO'
+07:57:48 PM.462: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+07:57:48 PM.462: 	title: nkHACK - Mozilla Firefox
+07:57:48 PM.462: 	class: Navigator
+07:59:23 PM.480: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+07:59:23 PM.482: [Media Source 'Media Source']: settings:
+07:59:23 PM.482: 	input:                   http://192.168.1.200:8080/video
+07:59:23 PM.482: 	input_format:            
+07:59:23 PM.482: 	speed:                   100
+07:59:23 PM.482: 	is_looping:              no
+07:59:23 PM.482: 	is_hw_decoding:          no
+07:59:23 PM.482: 	is_clear_on_media_end:   no
+07:59:23 PM.482: 	restart_on_activate:     yes
+07:59:23 PM.482: 	close_when_inactive:     yes
+08:01:17 PM.963: User Removed source 'Window Capture (Xcomposite)' (xcomposite_input) from scene 'TITULO'
+08:01:27 PM.970: ---------------------------------
+08:01:27 PM.970: [x264 encoder: 'simple_h264_stream'] settings:
+08:01:27 PM.970: 	rate_control: CBR
+08:01:27 PM.970: 	bitrate:      2500
+08:01:27 PM.970: 	buffer size:  2500
+08:01:27 PM.970: 	crf:          0
+08:01:27 PM.970: 	fps_num:      30
+08:01:27 PM.970: 	fps_den:      1
+08:01:27 PM.970: 	width:        1920
+08:01:27 PM.970: 	height:       1080
+08:01:27 PM.970: 	keyint:       250
+08:01:27 PM.970: 
+08:01:27 PM.970: ---------------------------------
+08:01:27 PM.970: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:01:27 PM.970: [x264 encoder: 'simple_h264_recording'] profile: high
+08:01:27 PM.970: [x264 encoder: 'simple_h264_recording'] settings:
+08:01:27 PM.970: 	rate_control: CRF
+08:01:27 PM.970: 	bitrate:      0
+08:01:27 PM.970: 	buffer size:  0
+08:01:27 PM.970: 	crf:          23
+08:01:27 PM.970: 	fps_num:      30
+08:01:27 PM.970: 	fps_den:      1
+08:01:27 PM.970: 	width:        1920
+08:01:27 PM.970: 	height:       1080
+08:01:27 PM.970: 	keyint:       250
+08:01:27 PM.970: 
+08:01:27 PM.984: ---------------------------------
+08:01:27 PM.984: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:01:27 PM.984: 
+08:01:28 PM.019: ==== Recording Start ===============================================
+08:01:28 PM.019: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-01-27.mp4'...
+08:01:52 PM.603: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-01-27.mp4' stopped
+08:01:52 PM.603: Output 'simple_file_output': stopping
+08:01:52 PM.603: Output 'simple_file_output': Total frames output: 713
+08:01:52 PM.603: Output 'simple_file_output': Total drawn frames: 738
+08:01:52 PM.603: ==== Recording Stop ================================================
+08:02:43 PM.133: User switched to scene 'TITULO'
+08:02:44 PM.855: User switched to scene 'ARRIBA'
+08:02:44 PM.861: User switched to scene 'TITULO'
+08:02:44 PM.870: User switched to scene 'ARRIBA'
+08:02:44 PM.944: User switched to scene 'ARRIBA'
+08:02:49 PM.415: User switched to scene 'camara'
+08:03:08 PM.000: User switched to scene 'ARRIBA'
+08:03:09 PM.047: User switched to scene 'TITULO'
+08:03:10 PM.066: User switched to scene 'ARRIBA'
+08:03:10 PM.585: User switched to scene 'camara'
+08:03:11 PM.649: User switched to scene 'ARRIBA'
+08:03:12 PM.184: User switched to scene 'TITULO'
+08:03:34 PM.878: ---------------------------------
+08:03:34 PM.878: [x264 encoder: 'simple_h264_stream'] settings:
+08:03:34 PM.878: 	rate_control: CBR
+08:03:34 PM.878: 	bitrate:      2500
+08:03:34 PM.878: 	buffer size:  2500
+08:03:34 PM.878: 	crf:          0
+08:03:34 PM.878: 	fps_num:      30
+08:03:34 PM.878: 	fps_den:      1
+08:03:34 PM.878: 	width:        1920
+08:03:34 PM.878: 	height:       1080
+08:03:34 PM.878: 	keyint:       250
+08:03:34 PM.878: 
+08:03:34 PM.878: ---------------------------------
+08:03:34 PM.878: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:03:34 PM.878: [x264 encoder: 'simple_h264_recording'] profile: high
+08:03:34 PM.878: [x264 encoder: 'simple_h264_recording'] settings:
+08:03:34 PM.878: 	rate_control: CRF
+08:03:34 PM.878: 	bitrate:      0
+08:03:34 PM.878: 	buffer size:  0
+08:03:34 PM.878: 	crf:          23
+08:03:34 PM.878: 	fps_num:      30
+08:03:34 PM.878: 	fps_den:      1
+08:03:34 PM.878: 	width:        1920
+08:03:34 PM.878: 	height:       1080
+08:03:34 PM.878: 	keyint:       250
+08:03:34 PM.878: 
+08:03:34 PM.892: ---------------------------------
+08:03:34 PM.892: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:03:34 PM.892: 
+08:03:34 PM.920: ==== Recording Start ===============================================
+08:03:34 PM.920: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-03-34.mp4'...
+08:03:59 PM.998: User switched to scene 'ARRIBA'
+08:04:13 PM.174: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:04:13 PM.174: 	title: nkHACK - Mozilla Firefox
+08:04:13 PM.174: 	class: Navigator
+08:04:13 PM.751: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:04:13 PM.751: 	title: nkHACK - Mozilla Firefox
+08:04:13 PM.751: 	class: Navigator
+08:06:04 PM.643: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-03-34.mp4' stopped
+08:06:04 PM.643: Output 'simple_file_output': stopping
+08:06:04 PM.643: Output 'simple_file_output': Total frames output: 4459
+08:06:04 PM.643: Output 'simple_file_output': Total drawn frames: 4232 (4492 attempted)
+08:06:04 PM.644: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 260 (5.8%)
+08:06:04 PM.647: ==== Recording Stop ================================================
+08:06:21 PM.967: ---------------------------------
+08:06:21 PM.967: [x264 encoder: 'simple_h264_stream'] settings:
+08:06:21 PM.967: 	rate_control: CBR
+08:06:21 PM.967: 	bitrate:      2500
+08:06:21 PM.967: 	buffer size:  2500
+08:06:21 PM.967: 	crf:          0
+08:06:21 PM.967: 	fps_num:      30
+08:06:21 PM.967: 	fps_den:      1
+08:06:21 PM.967: 	width:        1920
+08:06:21 PM.967: 	height:       1080
+08:06:21 PM.967: 	keyint:       250
+08:06:21 PM.967: 
+08:06:21 PM.968: ---------------------------------
+08:06:21 PM.968: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:06:21 PM.968: [x264 encoder: 'simple_h264_recording'] profile: high
+08:06:21 PM.968: [x264 encoder: 'simple_h264_recording'] settings:
+08:06:21 PM.968: 	rate_control: CRF
+08:06:21 PM.968: 	bitrate:      0
+08:06:21 PM.968: 	buffer size:  0
+08:06:21 PM.968: 	crf:          23
+08:06:21 PM.968: 	fps_num:      30
+08:06:21 PM.968: 	fps_den:      1
+08:06:21 PM.968: 	width:        1920
+08:06:21 PM.968: 	height:       1080
+08:06:21 PM.968: 	keyint:       250
+08:06:21 PM.968: 
+08:06:21 PM.979: ---------------------------------
+08:06:21 PM.979: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:06:21 PM.979: 
+08:06:22 PM.010: ==== Recording Start ===============================================
+08:06:22 PM.010: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-06-21.mp4'...
+08:06:27 PM.030: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-06-21.mp4' stopped
+08:06:27 PM.030: Output 'simple_file_output': stopping
+08:06:27 PM.030: Output 'simple_file_output': Total frames output: 126
+08:06:27 PM.030: Output 'simple_file_output': Total drawn frames: 150
+08:06:27 PM.030: ==== Recording Stop ================================================
+08:06:28 PM.602: User switched to scene 'TITULO'
+08:06:31 PM.838: ---------------------------------
+08:06:31 PM.839: [x264 encoder: 'simple_h264_stream'] settings:
+08:06:31 PM.839: 	rate_control: CBR
+08:06:31 PM.839: 	bitrate:      2500
+08:06:31 PM.839: 	buffer size:  2500
+08:06:31 PM.839: 	crf:          0
+08:06:31 PM.839: 	fps_num:      30
+08:06:31 PM.839: 	fps_den:      1
+08:06:31 PM.839: 	width:        1920
+08:06:31 PM.839: 	height:       1080
+08:06:31 PM.839: 	keyint:       250
+08:06:31 PM.839: 
+08:06:31 PM.839: ---------------------------------
+08:06:31 PM.839: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:06:31 PM.839: [x264 encoder: 'simple_h264_recording'] profile: high
+08:06:31 PM.839: [x264 encoder: 'simple_h264_recording'] settings:
+08:06:31 PM.839: 	rate_control: CRF
+08:06:31 PM.839: 	bitrate:      0
+08:06:31 PM.839: 	buffer size:  0
+08:06:31 PM.839: 	crf:          23
+08:06:31 PM.839: 	fps_num:      30
+08:06:31 PM.839: 	fps_den:      1
+08:06:31 PM.839: 	width:        1920
+08:06:31 PM.839: 	height:       1080
+08:06:31 PM.839: 	keyint:       250
+08:06:31 PM.839: 
+08:06:31 PM.848: ---------------------------------
+08:06:31 PM.848: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:06:31 PM.848: 
+08:06:31 PM.876: ==== Recording Start ===============================================
+08:06:31 PM.876: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-06-31.mp4'...
+08:07:19 PM.684: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-06-31.mp4' stopped
+08:07:19 PM.684: Output 'simple_file_output': stopping
+08:07:19 PM.684: Output 'simple_file_output': Total frames output: 1410
+08:07:19 PM.684: Output 'simple_file_output': Total drawn frames: 1434
+08:07:19 PM.685: ==== Recording Stop ================================================
+08:18:49 PM.582: User switched to scene 'ARRIBA'
+08:18:49 PM.615: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+08:18:50 PM.705: User switched to scene 'TITULO'
+08:18:51 PM.633: User switched to scene 'ARRIBA'
+08:18:52 PM.304: User switched to scene 'camara'
+08:18:55 PM.848: User switched to scene 'camara'
+08:18:57 PM.783: User switched to scene 'TITULO'
+08:19:01 PM.197: User switched to scene 'ARRIBA'
+08:19:10 PM.976: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:19:10 PM.976: 	title: xfce4-panel
+08:19:10 PM.976: 	class: xfce4-panel
+08:19:18 PM.983: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:19:18 PM.983: 	title: Mozilla Firefox
+08:19:18 PM.983: 	class: Navigator
+08:19:23 PM.909: User switched to scene 'TITULO'
+08:19:43 PM.345: [Media Source 'Media Source']: settings:
+08:19:43 PM.345: 	input:                   http://192.168.1.200:8080/video
+08:19:43 PM.345: 	input_format:            
+08:19:43 PM.345: 	speed:                   100
+08:19:43 PM.345: 	is_looping:              no
+08:19:43 PM.345: 	is_hw_decoding:          no
+08:19:43 PM.345: 	is_clear_on_media_end:   no
+08:19:43 PM.345: 	restart_on_activate:     no
+08:19:43 PM.345: 	close_when_inactive:     yes
+08:20:03 PM.077: ---------------------------------
+08:20:03 PM.077: [x264 encoder: 'simple_h264_stream'] settings:
+08:20:03 PM.077: 	rate_control: CBR
+08:20:03 PM.077: 	bitrate:      2500
+08:20:03 PM.077: 	buffer size:  2500
+08:20:03 PM.077: 	crf:          0
+08:20:03 PM.077: 	fps_num:      30
+08:20:03 PM.077: 	fps_den:      1
+08:20:03 PM.077: 	width:        1920
+08:20:03 PM.077: 	height:       1080
+08:20:03 PM.077: 	keyint:       250
+08:20:03 PM.077: 
+08:20:03 PM.078: ---------------------------------
+08:20:03 PM.078: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:20:03 PM.078: [x264 encoder: 'simple_h264_recording'] profile: high
+08:20:03 PM.078: [x264 encoder: 'simple_h264_recording'] settings:
+08:20:03 PM.078: 	rate_control: CRF
+08:20:03 PM.078: 	bitrate:      0
+08:20:03 PM.078: 	buffer size:  0
+08:20:03 PM.078: 	crf:          23
+08:20:03 PM.078: 	fps_num:      30
+08:20:03 PM.078: 	fps_den:      1
+08:20:03 PM.078: 	width:        1920
+08:20:03 PM.078: 	height:       1080
+08:20:03 PM.078: 	keyint:       250
+08:20:03 PM.078: 
+08:20:03 PM.096: ---------------------------------
+08:20:03 PM.097: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:20:03 PM.097: 
+08:20:03 PM.124: ==== Recording Start ===============================================
+08:20:03 PM.124: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-20-03.mp4'...
+08:20:33 PM.189: User switched to scene 'ARRIBA'
+08:25:09 PM.071: User switched to scene 'camara'
+08:28:08 PM.439: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-20-03.mp4' stopped
+08:28:08 PM.439: Output 'simple_file_output': stopping
+08:28:08 PM.439: Output 'simple_file_output': Total frames output: 14529
+08:28:08 PM.439: Output 'simple_file_output': Total drawn frames: 14271 (14559 attempted)
+08:28:08 PM.439: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 288 (2.0%)
+08:28:08 PM.441: ==== Recording Stop ================================================
+08:36:19 PM.778: Settings changed (hotkeys)
+08:36:19 PM.778: ------------------------------------------------
+08:36:21 PM.490: Starting recording due to hotkey
+08:36:21 PM.493: ---------------------------------
+08:36:21 PM.493: [x264 encoder: 'simple_h264_stream'] settings:
+08:36:21 PM.493: 	rate_control: CBR
+08:36:21 PM.493: 	bitrate:      2500
+08:36:21 PM.493: 	buffer size:  2500
+08:36:21 PM.493: 	crf:          0
+08:36:21 PM.493: 	fps_num:      30
+08:36:21 PM.493: 	fps_den:      1
+08:36:21 PM.493: 	width:        1920
+08:36:21 PM.493: 	height:       1080
+08:36:21 PM.493: 	keyint:       250
+08:36:21 PM.493: 
+08:36:21 PM.494: ---------------------------------
+08:36:21 PM.494: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:36:21 PM.494: [x264 encoder: 'simple_h264_recording'] profile: high
+08:36:21 PM.494: [x264 encoder: 'simple_h264_recording'] settings:
+08:36:21 PM.494: 	rate_control: CRF
+08:36:21 PM.494: 	bitrate:      0
+08:36:21 PM.494: 	buffer size:  0
+08:36:21 PM.494: 	crf:          23
+08:36:21 PM.494: 	fps_num:      30
+08:36:21 PM.494: 	fps_den:      1
+08:36:21 PM.494: 	width:        1920
+08:36:21 PM.494: 	height:       1080
+08:36:21 PM.494: 	keyint:       250
+08:36:21 PM.494: 
+08:36:21 PM.505: ---------------------------------
+08:36:21 PM.506: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:36:21 PM.506: 
+08:36:21 PM.542: ==== Recording Start ===============================================
+08:36:21 PM.543: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-36-21.mp4'...
+08:36:22 PM.467: Stopping recording due to hotkey
+08:36:23 PM.323: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-36-21.mp4' stopped
+08:36:23 PM.325: Output 'simple_file_output': stopping
+08:36:23 PM.325: Output 'simple_file_output': Total frames output: 29
+08:36:23 PM.325: Output 'simple_file_output': Total drawn frames: 52 (53 attempted)
+08:36:23 PM.325: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 1 (1.9%)
+08:36:23 PM.325: ==== Recording Stop ================================================
+08:36:26 PM.625: User switched to scene 'TITULO'
+08:38:38 PM.035: [Media Source 'Media Source']: settings:
+08:38:38 PM.035: 	input:                   http://192.168.1.200:8080/video
+08:38:38 PM.035: 	input_format:            
+08:38:38 PM.035: 	speed:                   100
+08:38:38 PM.035: 	is_looping:              no
+08:38:38 PM.035: 	is_hw_decoding:          no
+08:38:38 PM.035: 	is_clear_on_media_end:   no
+08:38:38 PM.035: 	restart_on_activate:     yes
+08:38:38 PM.035: 	close_when_inactive:     yes
+08:38:41 PM.204: [Media Source 'Media Source']: settings:
+08:38:41 PM.204: 	input:                   http://192.168.1.200:8080/video
+08:38:41 PM.204: 	input_format:            
+08:38:41 PM.204: 	speed:                   100
+08:38:41 PM.204: 	is_looping:              no
+08:38:41 PM.204: 	is_hw_decoding:          no
+08:38:41 PM.204: 	is_clear_on_media_end:   no
+08:38:41 PM.204: 	restart_on_activate:     no
+08:38:41 PM.204: 	close_when_inactive:     yes
+08:38:50 PM.527: Starting recording due to hotkey
+08:38:50 PM.533: ---------------------------------
+08:38:50 PM.533: [x264 encoder: 'simple_h264_stream'] settings:
+08:38:50 PM.533: 	rate_control: CBR
+08:38:50 PM.533: 	bitrate:      2500
+08:38:50 PM.533: 	buffer size:  2500
+08:38:50 PM.533: 	crf:          0
+08:38:50 PM.533: 	fps_num:      30
+08:38:50 PM.533: 	fps_den:      1
+08:38:50 PM.533: 	width:        1920
+08:38:50 PM.533: 	height:       1080
+08:38:50 PM.533: 	keyint:       250
+08:38:50 PM.533: 
+08:38:50 PM.533: ---------------------------------
+08:38:50 PM.533: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:38:50 PM.533: [x264 encoder: 'simple_h264_recording'] profile: high
+08:38:50 PM.534: [x264 encoder: 'simple_h264_recording'] settings:
+08:38:50 PM.534: 	rate_control: CRF
+08:38:50 PM.534: 	bitrate:      0
+08:38:50 PM.534: 	buffer size:  0
+08:38:50 PM.534: 	crf:          23
+08:38:50 PM.534: 	fps_num:      30
+08:38:50 PM.534: 	fps_den:      1
+08:38:50 PM.534: 	width:        1920
+08:38:50 PM.534: 	height:       1080
+08:38:50 PM.534: 	keyint:       250
+08:38:50 PM.534: 
+08:38:50 PM.543: ---------------------------------
+08:38:50 PM.544: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:38:50 PM.544: 
+08:38:50 PM.577: ==== Recording Start ===============================================
+08:38:50 PM.577: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-38-50.mp4'...
+08:38:56 PM.732: Stopping recording due to hotkey
+08:38:57 PM.584: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-38-50.mp4' stopped
+08:38:57 PM.584: Output 'simple_file_output': stopping
+08:38:57 PM.584: Output 'simple_file_output': Total frames output: 185
+08:38:57 PM.584: Output 'simple_file_output': Total drawn frames: 209 (210 attempted)
+08:38:57 PM.584: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0.5%)
+08:38:57 PM.584: ==== Recording Stop ================================================
+08:38:59 PM.750: Starting recording due to hotkey
+08:38:59 PM.756: ---------------------------------
+08:38:59 PM.756: [x264 encoder: 'simple_h264_stream'] settings:
+08:38:59 PM.756: 	rate_control: CBR
+08:38:59 PM.756: 	bitrate:      2500
+08:38:59 PM.756: 	buffer size:  2500
+08:38:59 PM.756: 	crf:          0
+08:38:59 PM.756: 	fps_num:      30
+08:38:59 PM.756: 	fps_den:      1
+08:38:59 PM.756: 	width:        1920
+08:38:59 PM.756: 	height:       1080
+08:38:59 PM.756: 	keyint:       250
+08:38:59 PM.756: 
+08:38:59 PM.757: ---------------------------------
+08:38:59 PM.757: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:38:59 PM.757: [x264 encoder: 'simple_h264_recording'] profile: high
+08:38:59 PM.757: [x264 encoder: 'simple_h264_recording'] settings:
+08:38:59 PM.757: 	rate_control: CRF
+08:38:59 PM.757: 	bitrate:      0
+08:38:59 PM.757: 	buffer size:  0
+08:38:59 PM.757: 	crf:          23
+08:38:59 PM.757: 	fps_num:      30
+08:38:59 PM.757: 	fps_den:      1
+08:38:59 PM.757: 	width:        1920
+08:38:59 PM.757: 	height:       1080
+08:38:59 PM.757: 	keyint:       250
+08:38:59 PM.757: 
+08:38:59 PM.765: ---------------------------------
+08:38:59 PM.765: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:38:59 PM.765: 
+08:38:59 PM.796: ==== Recording Start ===============================================
+08:38:59 PM.796: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-38-59.mp4'...
+08:39:28 PM.145: User switched to scene 'ARRIBA'
+08:39:28 PM.178: xcompcap: XCompositeNameWindowPixmap failed: BadMatch (invalid parameter attributes)
+08:39:51 PM.596: Stopping recording due to hotkey
+08:39:52 PM.469: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-38-59.mp4' stopped
+08:39:52 PM.469: Output 'simple_file_output': stopping
+08:39:52 PM.469: Output 'simple_file_output': Total frames output: 1555
+08:39:52 PM.469: Output 'simple_file_output': Total drawn frames: 1574 (1581 attempted)
+08:39:52 PM.469: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 7 (0.4%)
+08:39:52 PM.469: ==== Recording Stop ================================================
+08:40:22 PM.010: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:40:22 PM.010: 	title: xfce4-panel
+08:40:22 PM.010: 	class: xfce4-panel
+08:40:25 PM.513: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:40:25 PM.513: 	title: nkHACK - Mozilla Firefox
+08:40:25 PM.513: 	class: Navigator
+08:40:41 PM.399: User switched to scene 'TITULO'
+08:40:55 PM.444: [Media Source 'Media Source']: settings:
+08:40:55 PM.444: 	input:                   http://192.168.1.200:8080/video
+08:40:55 PM.444: 	input_format:            
+08:40:55 PM.444: 	speed:                   100
+08:40:55 PM.444: 	is_looping:              no
+08:40:55 PM.444: 	is_hw_decoding:          no
+08:40:55 PM.444: 	is_clear_on_media_end:   no
+08:40:55 PM.444: 	restart_on_activate:     yes
+08:40:55 PM.444: 	close_when_inactive:     yes
+08:41:05 PM.760: Starting recording due to hotkey
+08:41:05 PM.765: ---------------------------------
+08:41:05 PM.766: [x264 encoder: 'simple_h264_stream'] settings:
+08:41:05 PM.766: 	rate_control: CBR
+08:41:05 PM.766: 	bitrate:      2500
+08:41:05 PM.766: 	buffer size:  2500
+08:41:05 PM.766: 	crf:          0
+08:41:05 PM.766: 	fps_num:      30
+08:41:05 PM.766: 	fps_den:      1
+08:41:05 PM.766: 	width:        1920
+08:41:05 PM.766: 	height:       1080
+08:41:05 PM.766: 	keyint:       250
+08:41:05 PM.766: 
+08:41:05 PM.766: ---------------------------------
+08:41:05 PM.766: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:41:05 PM.766: [x264 encoder: 'simple_h264_recording'] profile: high
+08:41:05 PM.766: [x264 encoder: 'simple_h264_recording'] settings:
+08:41:05 PM.766: 	rate_control: CRF
+08:41:05 PM.766: 	bitrate:      0
+08:41:05 PM.766: 	buffer size:  0
+08:41:05 PM.766: 	crf:          23
+08:41:05 PM.766: 	fps_num:      30
+08:41:05 PM.766: 	fps_den:      1
+08:41:05 PM.766: 	width:        1920
+08:41:05 PM.766: 	height:       1080
+08:41:05 PM.766: 	keyint:       250
+08:41:05 PM.766: 
+08:41:05 PM.783: ---------------------------------
+08:41:05 PM.783: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:41:05 PM.783: 
+08:41:05 PM.820: ==== Recording Start ===============================================
+08:41:05 PM.820: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-41-05.mp4'...
+08:41:28 PM.438: User switched to scene 'ARRIBA'
+08:43:30 PM.203: Stopping recording due to hotkey
+08:43:31 PM.185: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-41-05.mp4' stopped
+08:43:31 PM.185: Output 'simple_file_output': stopping
+08:43:31 PM.186: Output 'simple_file_output': Total frames output: 4333
+08:43:31 PM.186: Output 'simple_file_output': Total drawn frames: 4140 (4361 attempted)
+08:43:31 PM.186: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 221 (5.1%)
+08:43:31 PM.186: ==== Recording Stop ================================================
+08:43:34 PM.517: User switched to scene 'TITULO'
+08:47:12 PM.665: [Media Source 'Media Source']: settings:
+08:47:12 PM.665: 	input:                   http://192.168.1.200:8080/video
+08:47:12 PM.665: 	input_format:            
+08:47:12 PM.665: 	speed:                   100
+08:47:12 PM.665: 	is_looping:              no
+08:47:12 PM.665: 	is_hw_decoding:          no
+08:47:12 PM.665: 	is_clear_on_media_end:   no
+08:47:12 PM.665: 	restart_on_activate:     no
+08:47:12 PM.665: 	close_when_inactive:     yes
+08:47:18 PM.610: [Media Source 'Media Source']: settings:
+08:47:18 PM.610: 	input:                   http://192.168.1.200:8080/video
+08:47:18 PM.610: 	input_format:            
+08:47:18 PM.610: 	speed:                   100
+08:47:18 PM.610: 	is_looping:              no
+08:47:18 PM.610: 	is_hw_decoding:          no
+08:47:18 PM.610: 	is_clear_on_media_end:   yes
+08:47:18 PM.610: 	restart_on_activate:     yes
+08:47:18 PM.610: 	close_when_inactive:     yes
+08:47:29 PM.536: [Media Source 'Media Source 2']: settings:
+08:47:29 PM.536: 	input:                   http://192.168.1.30:8080/video
+08:47:29 PM.536: 	input_format:            
+08:47:29 PM.536: 	speed:                   100
+08:47:29 PM.536: 	is_looping:              no
+08:47:29 PM.536: 	is_hw_decoding:          yes
+08:47:29 PM.536: 	is_clear_on_media_end:   no
+08:47:29 PM.536: 	restart_on_activate:     yes
+08:47:29 PM.536: 	close_when_inactive:     yes
+08:47:31 PM.359: MP: Failed to open media: 'http://192.168.1.30:8080/video'
+08:47:46 PM.235: [Media Source 'Media Source 2']: settings:
+08:47:46 PM.235: 	input:                   http://192.168.1.30:8080/video
+08:47:46 PM.235: 	input_format:            
+08:47:46 PM.235: 	speed:                   100
+08:47:46 PM.235: 	is_looping:              no
+08:47:46 PM.235: 	is_hw_decoding:          no
+08:47:46 PM.235: 	is_clear_on_media_end:   no
+08:47:46 PM.235: 	restart_on_activate:     yes
+08:47:46 PM.235: 	close_when_inactive:     yes
+08:47:46 PM.557: MP: Failed to open media: 'http://192.168.1.30:8080/video'
+08:47:52 PM.336: [Media Source 'Media Source']: settings:
+08:47:52 PM.336: 	input:                   http://192.168.1.200:8080/video
+08:47:52 PM.336: 	input_format:            
+08:47:52 PM.336: 	speed:                   100
+08:47:52 PM.336: 	is_looping:              no
+08:47:52 PM.336: 	is_hw_decoding:          no
+08:47:52 PM.336: 	is_clear_on_media_end:   yes
+08:47:52 PM.336: 	restart_on_activate:     yes
+08:47:52 PM.336: 	close_when_inactive:     yes
+08:47:59 PM.103: [Media Source 'Media Source 2']: settings:
+08:47:59 PM.103: 	input:                   http://192.168.1.30:8080/video
+08:47:59 PM.103: 	input_format:            
+08:47:59 PM.103: 	speed:                   100
+08:47:59 PM.103: 	is_looping:              no
+08:47:59 PM.103: 	is_hw_decoding:          no
+08:47:59 PM.103: 	is_clear_on_media_end:   yes
+08:47:59 PM.103: 	restart_on_activate:     yes
+08:47:59 PM.103: 	close_when_inactive:     yes
+08:51:21 PM.443: User switched to scene 'ARRIBA'
+08:51:21 PM.829: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+08:52:17 PM.962: User switched to scene 'TITULO'
+08:52:22 PM.774: Starting recording due to hotkey
+08:52:22 PM.779: ---------------------------------
+08:52:22 PM.779: [x264 encoder: 'simple_h264_stream'] settings:
+08:52:22 PM.779: 	rate_control: CBR
+08:52:22 PM.779: 	bitrate:      2500
+08:52:22 PM.779: 	buffer size:  2500
+08:52:22 PM.779: 	crf:          0
+08:52:22 PM.779: 	fps_num:      30
+08:52:22 PM.779: 	fps_den:      1
+08:52:22 PM.779: 	width:        1920
+08:52:22 PM.779: 	height:       1080
+08:52:22 PM.779: 	keyint:       250
+08:52:22 PM.779: 
+08:52:22 PM.779: ---------------------------------
+08:52:22 PM.779: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:52:22 PM.779: [x264 encoder: 'simple_h264_recording'] profile: high
+08:52:22 PM.779: [x264 encoder: 'simple_h264_recording'] settings:
+08:52:22 PM.779: 	rate_control: CRF
+08:52:22 PM.779: 	bitrate:      0
+08:52:22 PM.779: 	buffer size:  0
+08:52:22 PM.779: 	crf:          23
+08:52:22 PM.779: 	fps_num:      30
+08:52:22 PM.779: 	fps_den:      1
+08:52:22 PM.779: 	width:        1920
+08:52:22 PM.779: 	height:       1080
+08:52:22 PM.779: 	keyint:       250
+08:52:22 PM.779: 
+08:52:22 PM.794: ---------------------------------
+08:52:22 PM.794: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:52:22 PM.794: 
+08:52:22 PM.824: ==== Recording Start ===============================================
+08:52:22 PM.824: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-52-22.mp4'...
+08:52:53 PM.971: User switched to scene 'ARRIBA'
+08:53:06 PM.828: Stopping recording due to hotkey
+08:53:07 PM.721: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-52-22.mp4' stopped
+08:53:07 PM.722: Output 'simple_file_output': stopping
+08:53:07 PM.722: Output 'simple_file_output': Total frames output: 1321
+08:53:07 PM.722: Output 'simple_file_output': Total drawn frames: 1340 (1347 attempted)
+08:53:07 PM.722: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 7 (0.5%)
+08:53:07 PM.722: ==== Recording Stop ================================================
+08:53:19 PM.948: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:53:19 PM.948: 	title: nkHACK - Mozilla Firefox
+08:53:19 PM.948: 	class: Navigator
+08:53:28 PM.888: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:53:28 PM.888: 	title: nkHACK - Mozilla Firefox
+08:53:28 PM.888: 	class: Navigator
+08:53:40 PM.335: Starting recording due to hotkey
+08:53:40 PM.338: ---------------------------------
+08:53:40 PM.338: [x264 encoder: 'simple_h264_stream'] settings:
+08:53:40 PM.338: 	rate_control: CBR
+08:53:40 PM.338: 	bitrate:      2500
+08:53:40 PM.338: 	buffer size:  2500
+08:53:40 PM.338: 	crf:          0
+08:53:40 PM.338: 	fps_num:      30
+08:53:40 PM.338: 	fps_den:      1
+08:53:40 PM.338: 	width:        1920
+08:53:40 PM.338: 	height:       1080
+08:53:40 PM.338: 	keyint:       250
+08:53:40 PM.338: 
+08:53:40 PM.338: ---------------------------------
+08:53:40 PM.338: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:53:40 PM.338: [x264 encoder: 'simple_h264_recording'] profile: high
+08:53:40 PM.338: [x264 encoder: 'simple_h264_recording'] settings:
+08:53:40 PM.338: 	rate_control: CRF
+08:53:40 PM.338: 	bitrate:      0
+08:53:40 PM.338: 	buffer size:  0
+08:53:40 PM.338: 	crf:          23
+08:53:40 PM.338: 	fps_num:      30
+08:53:40 PM.338: 	fps_den:      1
+08:53:40 PM.338: 	width:        1920
+08:53:40 PM.338: 	height:       1080
+08:53:40 PM.338: 	keyint:       250
+08:53:40 PM.338: 
+08:53:40 PM.353: ---------------------------------
+08:53:40 PM.353: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:53:40 PM.353: 
+08:53:40 PM.417: ==== Recording Start ===============================================
+08:53:40 PM.417: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-53-40.mp4'...
+08:53:42 PM.995: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:53:42 PM.995: 	title: nkHACK - Mozilla Firefox
+08:53:42 PM.995: 	class: Navigator
+08:54:06 PM.956: User switched to scene 'TITULO'
+08:54:12 PM.315: User switched to scene 'ARRIBA'
+08:54:12 PM.697: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+08:54:13 PM.299: User switched to scene 'camara'
+08:54:14 PM.971: User switched to scene 'TITULO'
+08:54:20 PM.262: User switched to scene 'TITULO'
+08:54:21 PM.334: User switched to scene 'TITULO'
+08:54:22 PM.510: User switched to scene 'TITULO'
+08:54:23 PM.058: User switched to scene 'ARRIBA'
+08:54:23 PM.536: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+08:54:24 PM.368: User switched to scene 'camara'
+08:54:49 PM.982: User switched to scene 'CONSOLA'
+08:54:50 PM.368: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+08:54:54 PM.320: User Removed source 'Captura de ventana 2' (window_capture) from scene 'CONSOLA'
+08:54:57 PM.246: User Removed source 'Navegador 2' (browser_source) from scene 'CONSOLA'
+08:55:11 PM.817: Settings changed (hotkeys)
+08:55:11 PM.818: ------------------------------------------------
+08:55:13 PM.529: User switched to scene 'TITULO'
+08:55:22 PM.786: User switched to scene 'CONSOLA'
+08:55:34 PM.326: User switched to scene 'TITULO'
+08:55:37 PM.566: Stopping recording due to hotkey
+08:55:38 PM.515: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-53-40.mp4' stopped
+08:55:38 PM.515: Output 'simple_file_output': stopping
+08:55:38 PM.515: Output 'simple_file_output': Total frames output: 3515
+08:55:38 PM.515: Output 'simple_file_output': Total drawn frames: 3509 (3543 attempted)
+08:55:38 PM.515: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 34 (1.0%)
+08:55:38 PM.515: ==== Recording Stop ================================================
+08:55:44 PM.806: Starting recording due to hotkey
+08:55:44 PM.808: ---------------------------------
+08:55:44 PM.809: [x264 encoder: 'simple_h264_stream'] settings:
+08:55:44 PM.809: 	rate_control: CBR
+08:55:44 PM.809: 	bitrate:      2500
+08:55:44 PM.809: 	buffer size:  2500
+08:55:44 PM.809: 	crf:          0
+08:55:44 PM.809: 	fps_num:      30
+08:55:44 PM.809: 	fps_den:      1
+08:55:44 PM.809: 	width:        1920
+08:55:44 PM.809: 	height:       1080
+08:55:44 PM.809: 	keyint:       250
+08:55:44 PM.809: 
+08:55:44 PM.809: ---------------------------------
+08:55:44 PM.809: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:55:44 PM.809: [x264 encoder: 'simple_h264_recording'] profile: high
+08:55:44 PM.809: [x264 encoder: 'simple_h264_recording'] settings:
+08:55:44 PM.809: 	rate_control: CRF
+08:55:44 PM.809: 	bitrate:      0
+08:55:44 PM.809: 	buffer size:  0
+08:55:44 PM.809: 	crf:          23
+08:55:44 PM.809: 	fps_num:      30
+08:55:44 PM.809: 	fps_den:      1
+08:55:44 PM.809: 	width:        1920
+08:55:44 PM.809: 	height:       1080
+08:55:44 PM.809: 	keyint:       250
+08:55:44 PM.809: 
+08:55:44 PM.820: ---------------------------------
+08:55:44 PM.820: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:55:44 PM.820: 
+08:55:44 PM.848: ==== Recording Start ===============================================
+08:55:44 PM.849: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-55-44.mp4'...
+08:55:50 PM.894: Stopping recording due to hotkey
+08:55:51 PM.723: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-55-44.mp4' stopped
+08:55:51 PM.723: Output 'simple_file_output': stopping
+08:55:51 PM.723: Output 'simple_file_output': Total frames output: 182
+08:55:51 PM.723: Output 'simple_file_output': Total drawn frames: 206
+08:55:51 PM.724: ==== Recording Stop ================================================
+08:55:55 PM.150: Starting recording due to hotkey
+08:55:55 PM.156: ---------------------------------
+08:55:55 PM.156: [x264 encoder: 'simple_h264_stream'] settings:
+08:55:55 PM.156: 	rate_control: CBR
+08:55:55 PM.156: 	bitrate:      2500
+08:55:55 PM.156: 	buffer size:  2500
+08:55:55 PM.156: 	crf:          0
+08:55:55 PM.156: 	fps_num:      30
+08:55:55 PM.156: 	fps_den:      1
+08:55:55 PM.156: 	width:        1920
+08:55:55 PM.156: 	height:       1080
+08:55:55 PM.156: 	keyint:       250
+08:55:55 PM.156: 
+08:55:55 PM.156: ---------------------------------
+08:55:55 PM.156: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:55:55 PM.157: [x264 encoder: 'simple_h264_recording'] profile: high
+08:55:55 PM.157: [x264 encoder: 'simple_h264_recording'] settings:
+08:55:55 PM.157: 	rate_control: CRF
+08:55:55 PM.157: 	bitrate:      0
+08:55:55 PM.157: 	buffer size:  0
+08:55:55 PM.157: 	crf:          23
+08:55:55 PM.157: 	fps_num:      30
+08:55:55 PM.157: 	fps_den:      1
+08:55:55 PM.157: 	width:        1920
+08:55:55 PM.157: 	height:       1080
+08:55:55 PM.157: 	keyint:       250
+08:55:55 PM.157: 
+08:55:55 PM.170: ---------------------------------
+08:55:55 PM.171: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:55:55 PM.171: 
+08:55:55 PM.205: ==== Recording Start ===============================================
+08:55:55 PM.205: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-55-55.mp4'...
+08:56:18 PM.086: Stopping recording due to hotkey
+08:56:19 PM.018: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-55-55.mp4' stopped
+08:56:19 PM.018: Output 'simple_file_output': stopping
+08:56:19 PM.018: Output 'simple_file_output': Total frames output: 688
+08:56:19 PM.018: Output 'simple_file_output': Total drawn frames: 710 (714 attempted)
+08:56:19 PM.018: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0.6%)
+08:56:19 PM.018: ==== Recording Stop ================================================
+08:56:36 PM.959: User switched to scene 'CONSOLA'
+08:56:37 PM.339: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+08:56:47 PM.765: User switched to scene 'TITULO'
+08:56:50 PM.926: Starting recording due to hotkey
+08:56:50 PM.932: ---------------------------------
+08:56:50 PM.932: [x264 encoder: 'simple_h264_stream'] settings:
+08:56:50 PM.932: 	rate_control: CBR
+08:56:50 PM.932: 	bitrate:      2500
+08:56:50 PM.932: 	buffer size:  2500
+08:56:50 PM.932: 	crf:          0
+08:56:50 PM.932: 	fps_num:      30
+08:56:50 PM.932: 	fps_den:      1
+08:56:50 PM.932: 	width:        1920
+08:56:50 PM.932: 	height:       1080
+08:56:50 PM.932: 	keyint:       250
+08:56:50 PM.932: 
+08:56:50 PM.933: ---------------------------------
+08:56:50 PM.933: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+08:56:50 PM.933: [x264 encoder: 'simple_h264_recording'] profile: high
+08:56:50 PM.933: [x264 encoder: 'simple_h264_recording'] settings:
+08:56:50 PM.933: 	rate_control: CRF
+08:56:50 PM.933: 	bitrate:      0
+08:56:50 PM.933: 	buffer size:  0
+08:56:50 PM.933: 	crf:          23
+08:56:50 PM.933: 	fps_num:      30
+08:56:50 PM.933: 	fps_den:      1
+08:56:50 PM.933: 	width:        1920
+08:56:50 PM.933: 	height:       1080
+08:56:50 PM.933: 	keyint:       250
+08:56:50 PM.933: 
+08:56:50 PM.946: ---------------------------------
+08:56:50 PM.946: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+08:56:50 PM.946: 
+08:56:50 PM.984: ==== Recording Start ===============================================
+08:56:50 PM.984: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 20-56-50.mp4'...
+08:57:14 PM.689: User switched to scene 'ARRIBA'
+08:57:14 PM.712: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:57:14 PM.712: 	title: nkHACK - Mozilla Firefox
+08:57:14 PM.712: 	class: Navigator
+08:57:15 PM.128: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+08:59:20 PM.322: User switched to scene 'camara'
+08:59:58 PM.195: User switched to scene 'ARRIBA'
+08:59:58 PM.212: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+08:59:58 PM.212: 	title: nkHACK - Mozilla Firefox
+08:59:58 PM.212: 	class: Navigator
+08:59:58 PM.562: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+09:00:57 PM.691: Stopping recording due to hotkey
+09:00:58 PM.665: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 20-56-50.mp4' stopped
+09:00:58 PM.665: Output 'simple_file_output': stopping
+09:00:58 PM.665: Output 'simple_file_output': Total frames output: 7402
+09:00:58 PM.665: Output 'simple_file_output': Total drawn frames: 6947 (7430 attempted)
+09:00:58 PM.665: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 483 (6.5%)
+09:00:58 PM.665: ==== Recording Stop ================================================
+09:08:27 PM.730: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:08:27 PM.730: 	title: nkHACK - Mozilla Firefox
+09:08:27 PM.730: 	class: Navigator
+09:08:29 PM.269: ==== Shutting down ==================================================
+09:08:29 PM.275: Switched to scene '(null)'
+09:08:29 PM.292: All scene data cleared
+09:08:29 PM.292: ------------------------------------------------
+09:08:29 PM.357: Freeing OBS context data
+09:08:29 PM.377: [Scripting] Total detached callbacks: 0
+09:08:29 PM.603: == Profiler Results =============================
+09:08:29 PM.603: run_program_init: 911.793 ms
+09:08:29 PM.603:  ┣OBSApp::AppInit: 3.99 ms
+09:08:29 PM.603:  ┃ ┗OBSApp::InitLocale: 1.618 ms
+09:08:29 PM.603:  ┗OBSApp::OBSInit: 850.231 ms
+09:08:29 PM.603:    ┣obs_startup: 3.038 ms
+09:08:29 PM.603:    ┗OBSBasic::OBSInit: 511.66 ms
+09:08:29 PM.603:      ┣OBSBasic::InitBasicConfig: 0.135 ms
+09:08:29 PM.603:      ┣OBSBasic::ResetAudio: 0.693 ms
+09:08:29 PM.603:      ┣OBSBasic::ResetVideo: 127.539 ms
+09:08:29 PM.603:      ┣OBSBasic::InitOBSCallbacks: 0.009 ms
+09:08:29 PM.603:      ┣OBSBasic::InitHotkeys: 0.058 ms
+09:08:29 PM.603:      ┣obs_load_all_modules: 240.3 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(frontend-tools.so): 114.619 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(image-source.so): 0.006 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(linux-capture.so): 0.69 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(linux-decklink.so): 0.271 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(linux-jack.so): 0.004 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(linux-v4l2.so): 0.003 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.164 ms
+09:08:29 PM.603:      ┃ ┃ ┗nvenc_check: 0.148 ms
+09:08:29 PM.603:      ┃ ┣obs_init_module(obs-filters.so): 0.016 ms
+09:08:29 PM.604:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+09:08:29 PM.604:      ┃ ┣obs_init_module(obs-transitions.so): 0.011 ms
+09:08:29 PM.604:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+09:08:29 PM.604:      ┃ ┣obs_init_module(rtmp-services.so): 0.813 ms
+09:08:29 PM.604:      ┃ ┣obs_init_module(text-freetype2.so): 0.012 ms
+09:08:29 PM.604:      ┃ ┗obs_init_module(vlc-video.so): 6.184 ms
+09:08:29 PM.604:      ┣OBSBasic::ResetOutputs: 0.177 ms
+09:08:29 PM.604:      ┣OBSBasic::CreateHotkeys: 0.036 ms
+09:08:29 PM.604:      ┣OBSBasic::InitService: 1.433 ms
+09:08:29 PM.604:      ┣OBSBasic::InitPrimitives: 0.406 ms
+09:08:29 PM.604:      ┗OBSBasic::Load: 60.63 ms
+09:08:29 PM.604: obs_hotkey_thread(25 ms): min=0.068 ms, median=0.228 ms, max=427.786 ms, 99th percentile=3.948 ms, 99.9424% below 25 ms
+09:08:29 PM.604: audio_thread(Audio): min=0 ms, median=0.097 ms, max=147.792 ms, 99th percentile=43.518 ms
+09:08:29 PM.604:  ┗receive_audio: min=0.003 ms, median=0.355 ms, max=13.713 ms, 99th percentile=1.163 ms, 0.21303 calls per parent call
+09:08:29 PM.604:    ┣buffer_audio: min=0.001 ms, median=0.003 ms, max=1.504 ms, 99th percentile=0.008 ms
+09:08:29 PM.604:    ┗do_encode: min=0.021 ms, median=0.345 ms, max=13.704 ms, 99th percentile=1.138 ms
+09:08:29 PM.604:      ┗encode(simple_aac_recording): min=0.021 ms, median=0.332 ms, max=11.346 ms, 99th percentile=1.065 ms
+09:08:29 PM.605: obs_graphics_thread(33.3333 ms): min=0.218 ms, median=2.856 ms, max=528.303 ms, 99th percentile=73.332 ms, 88.5835% below 33.333 ms
+09:08:29 PM.605:  ┣tick_sources: min=0.001 ms, median=0.49 ms, max=416.649 ms, 99th percentile=4.263 ms
+09:08:29 PM.605:  ┣output_frame: min=0.113 ms, median=1.21 ms, max=178.621 ms, 99th percentile=71.143 ms
+09:08:29 PM.605:  ┃ ┣gs_context(video->graphics): min=0.112 ms, median=1.209 ms, max=170.484 ms, 99th percentile=71.088 ms
+09:08:29 PM.606:  ┃ ┃ ┣render_video: min=0.035 ms, median=0.849 ms, max=170.225 ms, 99th percentile=70.733 ms
+09:08:29 PM.606:  ┃ ┃ ┃ ┣render_main_texture: min=0.033 ms, median=0.735 ms, max=151.916 ms, 99th percentile=70.542 ms
+09:08:29 PM.606:  ┃ ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.035 ms, max=12.186 ms, 99th percentile=0.169 ms, 0.192723 calls per parent call
+09:08:29 PM.606:  ┃ ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.042 ms, max=14.719 ms, 99th percentile=0.158 ms, 0.192723 calls per parent call
+09:08:29 PM.606:  ┃ ┃ ┃ ┗stage_output_texture: min=0 ms, median=11.808 ms, max=94.872 ms, 99th percentile=46.695 ms, 0.192723 calls per parent call
+09:08:29 PM.606:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.255 ms, max=20.021 ms, 99th percentile=1.924 ms
+09:08:29 PM.606:  ┃ ┃ ┗download_frame: min=0 ms, median=0.018 ms, max=5.568 ms, 99th percentile=0.056 ms, 0.192723 calls per parent call
+09:08:29 PM.606:  ┃ ┗output_video_data: min=0.919 ms, median=1.811 ms, max=24.748 ms, 99th percentile=9.035 ms, 0.192502 calls per parent call
+09:08:29 PM.606:  ┗render_displays: min=0.003 ms, median=0.844 ms, max=406.076 ms, 99th percentile=9.357 ms
+09:08:29 PM.606: video_thread(video): min=0 ms, median=4.209 ms, max=134.535 ms, 99th percentile=14.651 ms
+09:08:29 PM.607:  ┗receive_video: min=0 ms, median=4.15 ms, max=134.533 ms, 99th percentile=13.003 ms
+09:08:29 PM.607:    ┗do_encode: min=2.672 ms, median=4.149 ms, max=134.533 ms, 99th percentile=13.002 ms
+09:08:29 PM.607:      ┗encode(simple_h264_recording): min=2.65 ms, median=4.1 ms, max=134.517 ms, 99th percentile=12.7 ms
+09:08:29 PM.607: =================================================
+09:08:29 PM.607: == Profiler Time Between Calls ==================
+09:08:29 PM.607: obs_hotkey_thread(25 ms): min=25.11 ms, median=25.324 ms, max=452.966 ms, 86.9624% within ±2% of 25 ms (0% lower, 13.0376% higher)
+09:08:29 PM.607: obs_graphics_thread(33.3333 ms): min=0.921 ms, median=33.334 ms, max=528.906 ms, 79.0046% within ±2% of 33.333 ms (9.32459% lower, 11.6708% higher)
+09:08:29 PM.607: =================================================
+09:08:30 PM.647: Number of memory leaks: 0

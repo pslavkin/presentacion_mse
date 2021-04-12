@@ -1,0 +1,183 @@
+05:37:56 PM.390: Command Line Arguments: escenas.json
+05:37:56 PM.493: CPU Name: AMD Phenom(tm) II X4 945 Processor
+05:37:56 PM.493: CPU Speed: 800.000MHz
+05:37:56 PM.493: Physical Cores: 4, Logical Cores: 4
+05:37:56 PM.493: Physical Memory: 5962MB Total, 277MB Free
+05:37:56 PM.493: Kernel Version: Linux 4.19.0-10-amd64
+05:37:56 PM.493: Distribution: "Debian GNU/Linux" "10"
+05:37:56 PM.494: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.4
+05:37:56 PM.497: Portable mode: false
+05:37:56 PM.604: OBS 0.0.1 (linux)
+05:37:56 PM.604: ---------------------------------
+05:37:56 PM.605: ---------------------------------
+05:37:56 PM.605: audio settings reset:
+05:37:56 PM.605: 	samples per sec: 44100
+05:37:56 PM.605: 	speakers:        2
+05:37:56 PM.632: ---------------------------------
+05:37:56 PM.632: Initializing OpenGL...
+05:37:57 PM.297: Loading up OpenGL on adapter X.Org AMD CEDAR (DRM 2.50.0 / 4.19.0-10-amd64, LLVM 7.0.1)
+05:37:57 PM.297: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.6, shading language 3.30
+05:37:57 PM.428: ---------------------------------
+05:37:57 PM.428: video settings reset:
+05:37:57 PM.428: 	base resolution:   1920x1080
+05:37:57 PM.428: 	output resolution: 1280x720
+05:37:57 PM.428: 	downscale filter:  Bicubic
+05:37:57 PM.428: 	fps:               30/1
+05:37:57 PM.428: 	format:            NV12
+05:37:57 PM.428: 	YUV mode:          601/Partial
+05:37:57 PM.430: Audio monitoring device:
+05:37:57 PM.430: 	name: Default
+05:37:57 PM.430: 	id: default
+05:37:57 PM.430: ---------------------------------
+05:37:57 PM.790: No blackmagic support
+05:37:58 PM.239: VLC found, VLC video source enabled
+05:37:58 PM.239: ---------------------------------
+05:37:58 PM.239:   Loaded Modules:
+05:37:58 PM.239:     vlc-video.so
+05:37:58 PM.239:     text-freetype2.so
+05:37:58 PM.239:     rtmp-services.so
+05:37:58 PM.239:     obs-x264.so
+05:37:58 PM.239:     obs-transitions.so
+05:37:58 PM.239:     obs-outputs.so
+05:37:58 PM.239:     obs-filters.so
+05:37:58 PM.239:     obs-ffmpeg.so
+05:37:58 PM.239:     linux-v4l2.so
+05:37:58 PM.239:     linux-pulseaudio.so
+05:37:58 PM.239:     linux-jack.so
+05:37:58 PM.239:     linux-decklink.so
+05:37:58 PM.239:     linux-capture.so
+05:37:58 PM.240:     linux-alsa.so
+05:37:58 PM.240:     image-source.so
+05:37:58 PM.240:     frontend-tools.so
+05:37:58 PM.240: ---------------------------------
+05:37:58 PM.240: ==== Startup complete ===============================================
+05:37:58 PM.241: Service '' not found
+05:37:58 PM.245: All scene data cleared
+05:37:58 PM.245: ------------------------------------------------
+05:37:58 PM.247: v4l2-input: Start capture from /dev/video1
+05:37:58 PM.341: v4l2-input: Input: 0
+05:37:58 PM.369: v4l2-input: Resolution: 640x480
+05:37:58 PM.369: v4l2-input: Pixelformat: VYUY
+05:37:58 PM.369: v4l2-input: Linesize: 1280 Bytes
+05:37:58 PM.369: v4l2-input: Framerate: 30.00 fps
+05:37:58 PM.375: xshm-input: Geometry 1920x1080 @ 0,0
+05:37:58 PM.376: Switched to scene 'Scene'
+05:37:58 PM.376: ------------------------------------------------
+05:37:58 PM.376: Loaded scenes:
+05:37:58 PM.376: - scene 'Scene':
+05:37:58 PM.378:     - source: 'Screen Capture (XSHM)' (xshm_input)
+05:37:58 PM.378:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+05:37:58 PM.378: ------------------------------------------------
+05:38:33 PM.843: Switched to scene '(null)'
+05:38:33 PM.906: v4l2-input: Stopped capture after 473 frames
+05:38:34 PM.401: All scene data cleared
+05:38:34 PM.401: ------------------------------------------------
+05:38:34 PM.402: Source ID 'wasapi_output_capture' not found
+05:38:34 PM.402: Failed to create source 'Audio del escritorio'!
+05:38:34 PM.402: Source ID 'wasapi_input_capture' not found
+05:38:34 PM.402: Failed to create source 'Mic/Aux'!
+05:38:34 PM.403: Source ID 'window_capture' not found
+05:38:34 PM.404: Failed to create source 'Captura de ventana 2'!
+05:38:34 PM.405: Source ID 'window_capture' not found
+05:38:34 PM.405: Failed to create source 'Captura de ventana'!
+05:38:34 PM.405: Source ID 'browser_source' not found
+05:38:34 PM.406: Failed to create source 'Navegador 2'!
+05:38:34 PM.406: Source ID 'virtualcam-filter' not found
+05:38:34 PM.406: Failed to create source 'VirtualCam'!
+05:38:34 PM.408: Switched to scene 'ARRIBA'
+05:38:34 PM.408: ------------------------------------------------
+05:38:34 PM.408: Loaded scenes:
+05:38:34 PM.408: - scene 'ARRIBA':
+05:38:34 PM.408:     - source: 'Captura de ventana' (window_capture)
+05:38:34 PM.408:     - source: 'Navegador 2' (browser_source)
+05:38:34 PM.408:         - filter: 'VirtualCam' (virtualcam-filter)
+05:38:34 PM.408: - scene 'TITULO':
+05:38:34 PM.408:     - source: 'Captura de ventana' (window_capture)
+05:38:34 PM.408:     - source: 'Navegador 2' (browser_source)
+05:38:34 PM.408:         - filter: 'VirtualCam' (virtualcam-filter)
+05:38:34 PM.408: - scene 'CAMARA':
+05:38:34 PM.408:     - source: 'Navegador 2' (browser_source)
+05:38:34 PM.408:         - filter: 'VirtualCam' (virtualcam-filter)
+05:38:34 PM.408: - scene 'CONSOLA':
+05:38:34 PM.409:     - source: 'Navegador 2' (browser_source)
+05:38:34 PM.409:         - filter: 'VirtualCam' (virtualcam-filter)
+05:38:34 PM.409:     - source: 'Captura de ventana 2' (window_capture)
+05:38:34 PM.409: ------------------------------------------------
+05:38:34 PM.414: Switched to scene collection 'Sin Título' (Sin_Título.json)
+05:38:34 PM.414: ------------------------------------------------
+05:38:36 PM.577: Switched to scene '(null)'
+05:38:36 PM.578: All scene data cleared
+05:38:36 PM.578: ------------------------------------------------
+05:38:36 PM.583: pulse-input: Server name: 'pulseaudio 12.2'
+05:38:36 PM.583: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:38:36 PM.583: pulse-input: Started recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo.monitor'
+05:38:36 PM.602: pulse-input: Server name: 'pulseaudio 12.2'
+05:38:36 PM.602: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:38:36 PM.603: pulse-input: Started recording from 'alsa_input.pci-0000_00_14.2.analog-stereo'
+05:38:36 PM.607: Switched to scene 'Scene'
+05:38:36 PM.608: ------------------------------------------------
+05:38:36 PM.608: Loaded scenes:
+05:38:36 PM.608: - scene 'Scene':
+05:38:36 PM.608: ------------------------------------------------
+05:38:36 PM.611: Switched to scene collection 'Untitled' (Untitled.json)
+05:38:36 PM.611: ------------------------------------------------
+05:38:37 PM.136: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+05:38:39 PM.500: Switched to scene '(null)'
+05:38:39 PM.501: pulse-input: Stopped recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo.monitor'
+05:38:39 PM.501: pulse-input: Got 1272 packets with 127306 frames
+05:38:39 PM.501: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_14.2.analog-stereo'
+05:38:39 PM.501: pulse-input: Got 576 packets with 127491 frames
+05:38:39 PM.501: All scene data cleared
+05:38:39 PM.502: ------------------------------------------------
+05:38:39 PM.503: Source ID 'wasapi_output_capture' not found
+05:38:39 PM.503: Failed to create source 'Audio del escritorio'!
+05:38:39 PM.503: Source ID 'wasapi_input_capture' not found
+05:38:39 PM.503: Failed to create source 'Mic/Aux'!
+05:38:39 PM.503: Source ID 'virtualcam-filter' not found
+05:38:39 PM.504: Failed to create source 'VirtualCam'!
+05:38:39 PM.504: Source ID 'browser_source' not found
+05:38:39 PM.504: Failed to create source 'Navegador 2'!
+05:38:39 PM.504: Source ID 'virtualcam-filter' not found
+05:38:39 PM.504: Failed to create source 'VirtualCam'!
+05:38:39 PM.504: Source ID 'window_capture' not found
+05:38:39 PM.504: Failed to create source 'Captura de ventana'!
+05:38:39 PM.505: Source ID 'window_capture' not found
+05:38:39 PM.505: Failed to create source 'Captura de ventana 2'!
+05:38:39 PM.507: Switched to scene 'ARRIBA'
+05:38:39 PM.507: ------------------------------------------------
+05:38:39 PM.507: Loaded scenes:
+05:38:39 PM.507: - scene 'ARRIBA':
+05:38:39 PM.507:     - source: 'Captura de ventana' (window_capture)
+05:38:39 PM.507:     - source: 'Navegador 2' (browser_source)
+05:38:39 PM.507:         - filter: 'VirtualCam' (virtualcam-filter)
+05:38:39 PM.507: - scene 'TITULO':
+05:38:39 PM.507:     - source: 'Captura de ventana' (window_capture)
+05:38:39 PM.507:     - source: 'Navegador 2' (browser_source)
+05:38:39 PM.507:         - filter: 'VirtualCam' (virtualcam-filter)
+05:38:39 PM.507: - scene 'CAMARA':
+05:38:39 PM.507:     - source: 'Navegador 2' (browser_source)
+05:38:39 PM.507:         - filter: 'VirtualCam' (virtualcam-filter)
+05:38:39 PM.507: - scene 'CONSOLA':
+05:38:39 PM.507:     - source: 'Navegador 2' (browser_source)
+05:38:39 PM.507:         - filter: 'VirtualCam' (virtualcam-filter)
+05:38:39 PM.507:     - source: 'Captura de ventana 2' (window_capture)
+05:38:39 PM.507: ------------------------------------------------
+05:38:39 PM.512: Switched to scene collection 'Sin Título' (Sin_Título.json)
+05:38:39 PM.512: ------------------------------------------------
+05:38:40 PM.976: User switched to scene 'TITULO'
+05:38:42 PM.562: User switched to scene 'ARRIBA'
+05:38:43 PM.136: User switched to scene 'TITULO'
+05:38:43 PM.994: User switched to scene 'CAMARA'
+05:38:44 PM.922: User switched to scene 'ARRIBA'
+07:22:40 AM.058: ==== Shutting down ==================================================
+07:22:40 AM.290: Switched to scene '(null)'
+07:22:40 AM.292: All scene data cleared
+07:22:40 AM.293: ------------------------------------------------
+07:22:40 AM.367: Failed to fetch parent window geometry!
+07:22:40 AM.369: Failed to fetch parent window geometry!
+07:22:40 AM.370: Failed to fetch parent window geometry!
+07:22:40 AM.370: Failed to fetch parent window geometry!
+07:22:40 AM.370: Failed to fetch parent window geometry!
+07:22:40 AM.370: Failed to fetch parent window geometry!
+07:22:40 AM.371: Failed to fetch parent window geometry!
+07:22:40 AM.371: Failed to fetch parent window geometry!

@@ -1,0 +1,538 @@
+09:08:34 PM.780: CPU Name: AMD Phenom(tm) II X4 945 Processor
+09:08:34 PM.780: CPU Speed: 1800.000MHz
+09:08:34 PM.780: Physical Cores: 4, Logical Cores: 4
+09:08:34 PM.780: Physical Memory: 5962MB Total, 2627MB Free
+09:08:34 PM.780: Kernel Version: Linux 4.19.0-10-amd64
+09:08:34 PM.780: Distribution: "Debian GNU/Linux" "10"
+09:08:34 PM.781: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.4
+09:08:34 PM.781: Portable mode: false
+09:08:34 PM.811: OBS 0.0.1 (linux)
+09:08:34 PM.811: ---------------------------------
+09:08:35 PM.079: ---------------------------------
+09:08:35 PM.079: audio settings reset:
+09:08:35 PM.079: 	samples per sec: 44100
+09:08:35 PM.079: 	speakers:        2
+09:08:35 PM.100: ---------------------------------
+09:08:35 PM.100: Initializing OpenGL...
+09:08:35 PM.179: Loading up OpenGL on adapter X.Org AMD CEDAR (DRM 2.50.0 / 4.19.0-10-amd64, LLVM 7.0.1)
+09:08:35 PM.179: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.6, shading language 3.30
+09:08:35 PM.214: ---------------------------------
+09:08:35 PM.214: video settings reset:
+09:08:35 PM.214: 	base resolution:   1920x1080
+09:08:35 PM.214: 	output resolution: 1920x1080
+09:08:35 PM.214: 	downscale filter:  Bicubic
+09:08:35 PM.214: 	fps:               30/1
+09:08:35 PM.214: 	format:            NV12
+09:08:35 PM.214: 	YUV mode:          601/Partial
+09:08:35 PM.216: Audio monitoring device:
+09:08:35 PM.216: 	name: Default
+09:08:35 PM.216: 	id: default
+09:08:35 PM.216: ---------------------------------
+09:08:35 PM.363: No blackmagic support
+09:08:35 PM.545: VLC found, VLC video source enabled
+09:08:35 PM.545: ---------------------------------
+09:08:35 PM.545:   Loaded Modules:
+09:08:35 PM.545:     vlc-video.so
+09:08:35 PM.546:     text-freetype2.so
+09:08:35 PM.546:     rtmp-services.so
+09:08:35 PM.546:     obs-x264.so
+09:08:35 PM.546:     obs-transitions.so
+09:08:35 PM.546:     obs-outputs.so
+09:08:35 PM.546:     obs-filters.so
+09:08:35 PM.546:     obs-ffmpeg.so
+09:08:35 PM.546:     linux-v4l2.so
+09:08:35 PM.546:     linux-pulseaudio.so
+09:08:35 PM.546:     linux-jack.so
+09:08:35 PM.546:     linux-decklink.so
+09:08:35 PM.546:     linux-capture.so
+09:08:35 PM.546:     linux-alsa.so
+09:08:35 PM.546:     image-source.so
+09:08:35 PM.546:     frontend-tools.so
+09:08:35 PM.546: ---------------------------------
+09:08:35 PM.546: ==== Startup complete ===============================================
+09:08:35 PM.546: Service '' not found
+09:08:35 PM.549: All scene data cleared
+09:08:35 PM.549: ------------------------------------------------
+09:08:35 PM.551: Source ID 'wasapi_output_capture' not found
+09:08:35 PM.551: Failed to create source 'Audio del escritorio'!
+09:08:35 PM.551: Source ID 'wasapi_input_capture' not found
+09:08:35 PM.551: Failed to create source 'Mic/Aux'!
+09:08:35 PM.598: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:08:35 PM.598: 	title: nkHACK - Mozilla Firefox
+09:08:35 PM.598: 	class: Navigator
+09:08:35 PM.598: [Media Source 'Media Source']: settings:
+09:08:35 PM.598: 	input:                   http://192.168.1.200:8080/video
+09:08:35 PM.598: 	input_format:            
+09:08:35 PM.598: 	speed:                   100
+09:08:35 PM.598: 	is_looping:              no
+09:08:35 PM.598: 	is_hw_decoding:          no
+09:08:35 PM.598: 	is_clear_on_media_end:   yes
+09:08:35 PM.598: 	restart_on_activate:     yes
+09:08:35 PM.598: 	close_when_inactive:     yes
+09:08:35 PM.599: [Media Source 'Media Source 2']: settings:
+09:08:35 PM.599: 	input:                   http://192.168.1.30:8080/video
+09:08:35 PM.599: 	input_format:            
+09:08:35 PM.599: 	speed:                   100
+09:08:35 PM.599: 	is_looping:              no
+09:08:35 PM.599: 	is_hw_decoding:          no
+09:08:35 PM.599: 	is_clear_on_media_end:   yes
+09:08:35 PM.599: 	restart_on_activate:     yes
+09:08:35 PM.599: 	close_when_inactive:     yes
+09:08:35 PM.600: Switched to scene 'ARRIBA'
+09:08:35 PM.600: ------------------------------------------------
+09:08:35 PM.600: Loaded scenes:
+09:08:35 PM.600: - scene 'TITULO':
+09:08:35 PM.600:     - source: 'Media Source' (ffmpeg_source)
+09:08:35 PM.600:     - source: 'Media Source 2' (ffmpeg_source)
+09:08:35 PM.600: - scene 'ARRIBA':
+09:08:35 PM.604:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+09:08:35 PM.604:     - source: 'Media Source' (ffmpeg_source)
+09:08:35 PM.604: - scene 'camara':
+09:08:35 PM.604:     - source: 'Media Source 2' (ffmpeg_source)
+09:08:35 PM.604:     - source: 'Media Source 2' (ffmpeg_source)
+09:08:35 PM.604:     - source: 'Media Source' (ffmpeg_source)
+09:08:35 PM.604: - scene 'CONSOLA':
+09:08:35 PM.604: ------------------------------------------------
+09:09:25 PM.403: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:09:25 PM.403: 	title: nkHACK - Mozilla Firefox
+09:09:25 PM.403: 	class: Navigator
+09:12:46 PM.094: xcompcap: Unable to query window list because window manager does not support extended window manager Hints
+09:12:46 PM.129: Failed to fetch parent window geometry!
+09:12:46 PM.129: Failed to fetch parent window geometry!
+09:12:46 PM.133: Failed to fetch parent window geometry!
+09:12:46 PM.133: Failed to fetch parent window geometry!
+09:12:46 PM.134: Failed to fetch parent window geometry!
+09:12:46 PM.134: Failed to fetch parent window geometry!
+09:12:46 PM.134: Failed to fetch parent window geometry!
+09:12:46 PM.134: Failed to fetch parent window geometry!
+09:14:14 PM.675: User switched to scene 'CONSOLA'
+09:14:16 PM.569: User switched to scene 'camara'
+09:14:17 PM.189: User switched to scene 'ARRIBA'
+09:14:17 PM.574: User switched to scene 'TITULO'
+09:14:18 PM.737: User switched to scene 'CONSOLA'
+09:14:21 PM.021: User switched to scene 'TITULO'
+09:14:25 PM.972: User switched to scene 'CONSOLA'
+09:14:40 PM.370: User switched to scene 'TITULO'
+09:19:50 PM.715: User switched to scene 'CONSOLA'
+09:19:51 PM.970: User switched to scene 'TITULO'
+09:21:48 PM.050: User switched to scene 'CONSOLA'
+09:21:53 PM.172: User switched to scene 'TITULO'
+09:21:55 PM.306: Starting recording due to hotkey
+09:21:55 PM.311: ---------------------------------
+09:21:55 PM.311: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+09:21:55 PM.311: [x264 encoder: 'simple_h264_recording'] profile: high
+09:21:55 PM.311: [x264 encoder: 'simple_h264_recording'] settings:
+09:21:55 PM.311: 	rate_control: CRF
+09:21:55 PM.311: 	bitrate:      0
+09:21:55 PM.311: 	buffer size:  0
+09:21:55 PM.311: 	crf:          23
+09:21:55 PM.311: 	fps_num:      30
+09:21:55 PM.311: 	fps_den:      1
+09:21:55 PM.311: 	width:        1920
+09:21:55 PM.311: 	height:       1080
+09:21:55 PM.311: 	keyint:       250
+09:21:55 PM.311: 
+09:21:55 PM.330: ---------------------------------
+09:21:55 PM.330: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+09:21:55 PM.330: 
+09:21:55 PM.355: ==== Recording Start ===============================================
+09:21:55 PM.355: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 21-21-55.mp4'...
+09:22:30 PM.805: User switched to scene 'ARRIBA'
+09:23:55 PM.057: Stopping recording due to hotkey
+09:25:27 PM.794: User switched to scene 'CONSOLA'
+09:25:44 PM.194: User switched to scene 'TITULO'
+09:25:45 PM.738: User switched to scene 'CONSOLA'
+09:25:46 PM.943: User switched to scene 'TITULO'
+09:25:50 PM.522: Stopping recording due to hotkey
+09:25:59 PM.890: Stopping recording due to hotkey
+09:28:10 PM.669: User switched to scene 'CONSOLA'
+09:28:12 PM.770: User switched to scene 'TITULO'
+09:28:15 PM.354: Stopping recording due to hotkey
+09:28:17 PM.457: Stopping recording due to hotkey
+09:28:19 PM.425: Stopping recording due to hotkey
+09:28:22 PM.039: Stopping recording due to hotkey
+09:28:25 PM.413: Stopping recording due to hotkey
+09:28:45 PM.409: User switched to scene 'ARRIBA'
+09:28:58 PM.092: Stopping recording due to hotkey
+09:29:34 PM.127: User switched to scene 'TITULO'
+09:30:44 PM.399: User switched to scene 'CONSOLA'
+09:30:58 PM.491: User switched to scene 'TITULO'
+09:31:00 PM.427: Stopping recording due to hotkey
+09:31:25 PM.546: User switched to scene 'ARRIBA'
+09:33:57 PM.915: Stopping recording due to hotkey
+09:35:02 PM.121: User switched to scene 'CONSOLA'
+09:35:19 PM.891: User switched to scene 'TITULO'
+09:35:22 PM.464: Stopping recording due to hotkey
+09:35:39 PM.895: User switched to scene 'ARRIBA'
+09:37:13 PM.019: User switched to scene 'camara'
+09:39:08 PM.198: Stopping recording due to hotkey
+09:39:21 PM.055: Stopping recording due to hotkey
+09:40:05 PM.400: Stopping recording due to hotkey
+09:40:07 PM.858: Stopping recording due to hotkey
+09:41:00 PM.685: User switched to scene 'ARRIBA'
+09:41:50 PM.008: User switched to scene 'CONSOLA'
+09:41:52 PM.126: Stopping recording due to hotkey
+09:41:54 PM.456: User switched to scene 'TITULO'
+09:41:55 PM.206: User switched to scene 'ARRIBA'
+09:41:57 PM.598: Stopping recording due to hotkey
+09:43:08 PM.239: Stopping recording due to hotkey
+09:43:47 PM.242: User switched to scene 'CONSOLA'
+09:43:49 PM.738: User switched to scene 'TITULO'
+09:43:50 PM.758: User switched to scene 'ARRIBA'
+09:45:32 PM.829: Stopping recording due to hotkey
+09:45:56 PM.045: Stopping recording due to hotkey
+09:55:40 PM.416: User switched to scene 'CONSOLA'
+09:55:42 PM.492: User switched to scene 'TITULO'
+09:55:50 PM.893: Stopping recording due to hotkey
+09:56:02 PM.214: Stopping recording due to hotkey
+09:56:17 PM.915: User switched to scene 'CONSOLA'
+09:56:19 PM.557: User switched to scene 'ARRIBA'
+09:56:20 PM.601: Stopping recording due to hotkey
+09:56:58 PM.088: Stopping recording due to hotkey
+09:58:14 PM.976: User switched to scene 'CONSOLA'
+09:58:16 PM.752: User switched to scene 'ARRIBA'
+09:58:17 PM.950: Stopping recording due to hotkey
+10:01:27 PM.845: Stopping recording due to hotkey
+10:01:34 PM.993: User switched to scene 'CONSOLA'
+10:04:10 PM.588: User switched to scene 'CONSOLA'
+10:04:12 PM.828: User switched to scene 'CONSOLA'
+10:04:13 PM.064: User switched to scene 'CONSOLA'
+10:04:13 PM.348: User switched to scene 'CONSOLA'
+10:04:13 PM.655: User switched to scene 'CONSOLA'
+10:04:13 PM.937: User switched to scene 'CONSOLA'
+10:04:14 PM.244: User switched to scene 'CONSOLA'
+10:04:32 PM.555: User switched to scene 'TITULO'
+10:04:35 PM.635: Stopping recording due to hotkey
+10:04:59 PM.371: User switched to scene 'ARRIBA'
+10:07:21 PM.568: User switched to scene 'camara'
+10:08:49 PM.523: User switched to scene 'ARRIBA'
+10:09:57 PM.491: Stopping recording due to hotkey
+10:25:56 PM.408: User switched to scene 'TITULO'
+10:26:01 PM.446: Stopping recording due to hotkey
+10:26:02 PM.704: Stopping recording due to hotkey
+10:26:05 PM.355: User switched to scene 'CONSOLA'
+10:26:06 PM.736: User switched to scene 'TITULO'
+10:26:08 PM.614: Stopping recording due to hotkey
+10:26:39 PM.753: Stopping recording due to hotkey
+10:27:20 PM.810: User switched to scene 'CONSOLA'
+10:27:22 PM.152: User switched to scene 'camara'
+10:27:23 PM.621: User switched to scene 'ARRIBA'
+10:27:24 PM.110: User switched to scene 'TITULO'
+10:27:25 PM.855: User switched to scene 'CONSOLA'
+10:27:30 PM.355: User switched to scene 'TITULO'
+10:27:34 PM.567: Stopping recording due to hotkey
+10:27:54 PM.501: User switched to scene 'ARRIBA'
+10:29:54 PM.961: Stopping recording due to hotkey
+10:30:47 PM.840: User switched to scene 'TITULO'
+10:30:49 PM.025: User switched to scene 'CONSOLA'
+10:31:00 PM.501: User switched to scene 'TITULO'
+10:31:01 PM.516: Stopping recording due to hotkey
+10:31:19 PM.211: User switched to scene 'ARRIBA'
+10:34:06 PM.762: User switched to scene 'camara'
+10:34:49 PM.374: User switched to scene 'ARRIBA'
+10:36:22 PM.267: Stopping recording due to hotkey
+10:42:14 PM.751: User switched to scene 'camara'
+10:46:59 PM.780: User switched to scene 'CONSOLA'
+10:47:01 PM.587: User switched to scene 'TITULO'
+10:47:03 PM.207: User switched to scene 'ARRIBA'
+10:47:05 PM.219: User switched to scene 'camara'
+10:47:19 PM.051: User switched to scene 'CONSOLA'
+10:47:27 PM.115: User switched to scene 'TITULO'
+10:47:28 PM.568: User switched to scene 'CONSOLA'
+10:47:30 PM.160: User switched to scene 'TITULO'
+10:47:31 PM.252: Stopping recording due to hotkey
+10:47:51 PM.138: User switched to scene 'ARRIBA'
+10:48:13 PM.324: Stopping recording due to hotkey
+10:49:02 PM.084: User switched to scene 'CONSOLA'
+10:49:12 PM.939: User switched to scene 'TITULO'
+10:49:14 PM.478: Stopping recording due to hotkey
+10:49:33 PM.501: User switched to scene 'ARRIBA'
+10:50:51 PM.218: Stopping recording due to hotkey
+10:51:31 PM.513: User switched to scene 'CONSOLA'
+10:51:41 PM.354: User switched to scene 'TITULO'
+10:51:42 PM.322: Stopping recording due to hotkey
+10:52:01 PM.097: User switched to scene 'ARRIBA'
+10:54:42 PM.185: User switched to scene 'camara'
+10:55:09 PM.380: Stopping recording due to hotkey
+10:55:09 PM.381: Could not save scene data to /home/pslavkin/.config/obs-studio/basic/scenes/Sin_Título.json
+10:56:02 PM.617: User switched to scene 'CONSOLA'
+10:56:03 PM.950: User switched to scene 'camara'
+10:56:40 PM.791: User switched to scene 'CONSOLA'
+10:56:42 PM.062: User switched to scene 'camara'
+10:56:43 PM.486: User switched to scene 'ARRIBA'
+10:56:44 PM.892: User switched to scene 'TITULO'
+10:56:46 PM.651: User switched to scene 'ARRIBA'
+10:56:47 PM.638: User switched to scene 'camara'
+10:56:52 PM.440: User switched to scene 'CONSOLA'
+10:56:54 PM.664: User switched to scene 'TITULO'
+10:56:56 PM.025: Stopping recording due to hotkey
+10:57:15 PM.559: User switched to scene 'ARRIBA'
+10:57:39 PM.132: Stopping recording due to hotkey
+10:58:10 PM.051: User switched to scene 'ARRIBA'
+10:58:10 PM.598: User switched to scene 'TITULO'
+10:58:11 PM.430: User switched to scene 'camara'
+10:58:11 PM.445: User switched to scene 'CONSOLA'
+10:58:12 PM.064: User switched to scene 'camara'
+10:58:28 PM.775: User switched to scene 'CONSOLA'
+10:58:41 PM.001: User switched to scene 'TITULO'
+10:58:42 PM.183: Stopping recording due to hotkey
+10:59:02 PM.618: User switched to scene 'ARRIBA'
+11:00:29 PM.904: Stopping recording due to hotkey
+01:27:57 AM.842: User switched to scene 'CONSOLA'
+01:27:58 AM.459: User switched to scene 'camara'
+01:27:59 AM.775: User switched to scene 'ARRIBA'
+01:28:00 AM.824: User switched to scene 'TITULO'
+01:28:02 AM.958: User switched to scene 'ARRIBA'
+01:28:03 AM.477: User switched to scene 'TITULO'
+01:28:03 AM.907: User switched to scene 'ARRIBA'
+01:28:04 AM.136: User switched to scene 'TITULO'
+01:28:04 AM.293: User switched to scene 'ARRIBA'
+01:28:04 AM.391: User switched to scene 'TITULO'
+01:28:04 AM.545: User switched to scene 'ARRIBA'
+01:28:04 AM.797: User switched to scene 'ARRIBA'
+01:28:04 AM.952: User switched to scene 'ARRIBA'
+01:28:05 AM.033: User switched to scene 'TITULO'
+01:28:05 AM.136: User switched to scene 'ARRIBA'
+01:28:05 AM.310: User switched to scene 'ARRIBA'
+01:28:05 AM.522: User switched to scene 'camara'
+01:28:05 AM.547: User switched to scene 'ARRIBA'
+01:28:05 AM.548: User switched to scene 'CONSOLA'
+01:28:05 AM.672: User switched to scene 'TITULO'
+01:28:05 AM.802: User switched to scene 'camara'
+01:28:05 AM.904: User switched to scene 'TITULO'
+01:28:05 AM.982: User switched to scene 'camara'
+01:28:06 AM.010: User switched to scene 'ARRIBA'
+01:28:06 AM.161: User switched to scene 'TITULO'
+01:28:06 AM.212: User switched to scene 'camara'
+01:28:06 AM.216: User switched to scene 'ARRIBA'
+01:28:06 AM.295: User switched to scene 'TITULO'
+01:28:06 AM.518: User switched to scene 'camara'
+01:28:06 AM.545: User switched to scene 'ARRIBA'
+01:28:06 AM.593: User switched to scene 'TITULO'
+01:28:13 AM.598: Last log entry repeated for 78 more lines
+01:28:13 AM.598: Stopping recording due to hotkey
+01:28:13 AM.726: User switched to scene 'CONSOLA'
+01:28:15 AM.947: User switched to scene 'camara'
+01:28:15 AM.952: User switched to scene 'ARRIBA'
+01:28:15 AM.955: User switched to scene 'TITULO'
+01:28:15 AM.956: User switched to scene 'CONSOLA'
+01:28:16 AM.334: User switched to scene 'camara'
+01:28:16 AM.334: User switched to scene 'CONSOLA'
+01:28:16 AM.357: User switched to scene 'TITULO'
+01:28:16 AM.383: User switched to scene 'ARRIBA'
+01:28:16 AM.717: User switched to scene 'ARRIBA'
+01:28:16 AM.748: User switched to scene 'camara'
+01:28:16 AM.762: User switched to scene 'TITULO'
+01:28:16 AM.762: User switched to scene 'CONSOLA'
+01:28:17 AM.090: User switched to scene 'TITULO'
+01:28:17 AM.116: User switched to scene 'camara'
+01:28:17 AM.117: User switched to scene 'CONSOLA'
+01:28:17 AM.139: User switched to scene 'ARRIBA'
+01:28:17 AM.478: User switched to scene 'camara'
+01:28:17 AM.485: User switched to scene 'ARRIBA'
+01:28:17 AM.488: User switched to scene 'TITULO'
+01:28:17 AM.488: User switched to scene 'CONSOLA'
+01:28:17 AM.939: User switched to scene 'TITULO'
+01:28:18 AM.393: User switched to scene 'TITULO'
+01:28:18 AM.733: User switched to scene 'ARRIBA'
+01:28:19 AM.203: User switched to scene 'camara'
+01:28:19 AM.209: User switched to scene 'ARRIBA'
+01:28:19 AM.870: User switched to scene 'TITULO'
+01:28:22 AM.572: User switched to scene 'ARRIBA'
+01:28:23 AM.342: User switched to scene 'camara'
+01:28:24 AM.108: User switched to scene 'CONSOLA'
+01:28:25 AM.234: User switched to scene 'CONSOLA'
+01:31:20 AM.714: Last log entry repeated for 122 more lines
+01:31:20 AM.715: Stopping recording due to hotkey
+01:31:20 AM.738: Could not save scene data to /home/pslavkin/.config/obs-studio/basic/scenes/Sin_Título.json
+01:31:25 AM.831: User switched to scene 'CONSOLA'
+01:31:26 AM.921: User switched to scene 'TITULO'
+01:31:27 AM.947: Stopping recording due to hotkey
+01:31:48 AM.593: User switched to scene 'ARRIBA'
+01:34:47 AM.194: User switched to scene 'camara'
+01:36:11 AM.803: User switched to scene 'CONSOLA'
+01:36:13 AM.041: User switched to scene 'camara'
+01:36:13 AM.479: User switched to scene 'TITULO'
+01:36:14 AM.213: User switched to scene 'CONSOLA'
+01:36:29 AM.422: User switched to scene 'TITULO'
+01:36:32 AM.912: Stopping recording due to hotkey
+01:36:39 AM.712: User switched to scene 'TITULO'
+01:36:40 AM.711: User switched to scene 'CONSOLA'
+01:36:42 AM.153: User switched to scene 'TITULO'
+01:36:43 AM.587: Stopping recording due to hotkey
+01:37:04 AM.626: User switched to scene 'ARRIBA'
+01:38:56 AM.610: Stopping recording due to hotkey
+01:40:32 AM.847: User switched to scene 'ARRIBA'
+01:40:33 AM.501: User switched to scene 'camara'
+01:40:42 AM.232: User switched to scene 'TITULO'
+01:40:47 AM.801: User switched to scene 'CONSOLA'
+01:41:04 AM.471: User switched to scene 'TITULO'
+01:41:06 AM.021: Stopping recording due to hotkey
+01:41:27 AM.883: User switched to scene 'ARRIBA'
+01:44:23 AM.653: User switched to scene 'camara'
+01:46:31 AM.133: User switched to scene 'ARRIBA'
+01:46:38 AM.521: Stopping recording due to hotkey
+01:46:38 AM.535: Could not save scene data to /home/pslavkin/.config/obs-studio/basic/scenes/Sin_Título.json
+01:59:28 AM.009: User switched to scene 'camara'
+01:59:39 AM.904: User switched to scene 'TITULO'
+02:00:59 AM.741: User switched to scene 'CONSOLA'
+02:01:00 AM.756: User switched to scene 'TITULO'
+02:01:02 AM.257: User switched to scene 'ARRIBA'
+02:01:04 AM.167: User switched to scene 'camara'
+02:03:22 AM.582: User switched to scene 'CONSOLA'
+02:03:24 AM.422: User switched to scene 'TITULO'
+02:03:28 AM.025: Stopping recording due to hotkey
+02:04:10 AM.066: Stopping recording due to hotkey
+02:05:11 AM.273: User switched to scene 'camara'
+02:05:13 AM.094: User switched to scene 'ARRIBA'
+02:05:15 AM.099: User switched to scene 'CONSOLA'
+02:05:31 AM.803: User switched to scene 'TITULO'
+02:05:32 AM.719: Stopping recording due to hotkey
+02:05:54 AM.086: User switched to scene 'ARRIBA'
+02:09:03 AM.196: Stopping recording due to hotkey
+02:09:37 AM.706: User switched to scene 'camara'
+02:09:53 AM.102: User switched to scene 'TITULO'
+02:09:53 AM.412: User switched to scene 'ARRIBA'
+02:09:54 AM.528: User switched to scene 'TITULO'
+02:10:00 AM.173: User switched to scene 'CONSOLA'
+02:10:18 AM.122: User switched to scene 'TITULO'
+02:10:19 AM.043: Stopping recording due to hotkey
+02:10:41 AM.711: User switched to scene 'ARRIBA'
+02:13:26 AM.005: User switched to scene 'camara'
+02:14:17 AM.249: Stopping recording due to hotkey
+02:15:22 AM.657: User switched to scene 'CONSOLA'
+02:15:24 AM.733: User switched to scene 'camara'
+02:15:26 AM.187: User switched to scene 'ARRIBA'
+02:15:36 AM.870: User switched to scene 'TITULO'
+02:15:37 AM.674: User switched to scene 'ARRIBA'
+02:15:38 AM.316: User switched to scene 'camara'
+02:15:40 AM.002: User switched to scene 'ARRIBA'
+02:15:56 AM.967: User switched to scene 'ARRIBA'
+02:15:57 AM.486: User switched to scene 'camara'
+02:15:58 AM.599: User switched to scene 'TITULO'
+02:15:59 AM.952: User switched to scene 'CONSOLA'
+02:16:01 AM.720: User switched to scene 'TITULO'
+02:16:03 AM.206: Stopping recording due to hotkey
+02:16:25 AM.636: User switched to scene 'ARRIBA'
+02:21:57 AM.750: User switched to scene 'camara'
+02:21:59 AM.431: User switched to scene 'TITULO'
+02:22:00 AM.451: User switched to scene 'ARRIBA'
+02:22:05 AM.024: User switched to scene 'ARRIBA'
+02:22:05 AM.469: User switched to scene 'TITULO'
+02:22:27 AM.391: User switched to scene 'CONSOLA'
+02:22:31 AM.307: Stopping recording due to hotkey
+02:22:31 AM.321: Could not save scene data to /home/pslavkin/.config/obs-studio/basic/scenes/Sin_Título.json
+02:22:47 AM.238: User switched to scene 'camara'
+02:22:58 AM.958: User switched to scene 'ARRIBA'
+02:23:00 AM.169: User switched to scene 'TITULO'
+02:23:05 AM.015: Stopping recording due to hotkey
+02:23:35 AM.899: Stopping recording due to hotkey
+02:23:39 AM.364: User switched to scene 'ARRIBA'
+02:23:39 AM.912: User switched to scene 'camara'
+02:23:40 AM.703: User switched to scene 'CONSOLA'
+02:23:41 AM.593: User switched to scene 'camara'
+02:23:42 AM.280: User switched to scene 'ARRIBA'
+02:23:43 AM.022: User switched to scene 'camara'
+02:23:44 AM.074: User switched to scene 'CONSOLA'
+02:23:46 AM.438: User switched to scene 'TITULO'
+02:23:48 AM.377: Stopping recording due to hotkey
+02:23:53 AM.257: Stopping recording due to hotkey
+02:23:56 AM.012: User switched to scene 'CONSOLA'
+02:23:57 AM.139: User switched to scene 'TITULO'
+02:23:59 AM.066: Stopping recording due to hotkey
+02:24:20 AM.466: User switched to scene 'ARRIBA'
+02:28:05 AM.948: User switched to scene 'camara'
+02:28:50 AM.663: User switched to scene 'ARRIBA'
+02:29:11 AM.151: Stopping recording due to hotkey
+02:31:34 AM.556: User switched to scene 'ARRIBA'
+02:31:35 AM.208: User switched to scene 'TITULO'
+02:31:36 AM.913: User switched to scene 'ARRIBA'
+02:31:37 AM.379: User switched to scene 'camara'
+02:32:37 AM.306: User switched to scene 'CONSOLA'
+02:32:38 AM.011: User switched to scene 'camara'
+02:32:40 AM.052: User switched to scene 'ARRIBA'
+02:32:40 AM.978: User switched to scene 'camara'
+02:32:42 AM.861: User switched to scene 'ARRIBA'
+02:33:08 AM.472: User switched to scene 'TITULO'
+02:33:11 AM.204: User switched to scene 'ARRIBA'
+02:33:29 AM.998: User switched to scene 'TITULO'
+02:33:32 AM.973: User switched to scene 'CONSOLA'
+02:33:33 AM.905: User switched to scene 'TITULO'
+02:33:35 AM.001: Stopping recording due to hotkey
+02:33:56 AM.623: User switched to scene 'ARRIBA'
+02:37:23 AM.043: User switched to scene 'camara'
+02:38:10 AM.198: User switched to scene 'ARRIBA'
+02:38:30 AM.171: Stopping recording due to hotkey
+02:38:30 AM.186: Could not save scene data to /home/pslavkin/.config/obs-studio/basic/scenes/Sin_Título.json
+02:49:03 AM.227: User switched to scene 'CONSOLA'
+02:49:14 AM.120: User switched to scene 'camara'
+02:51:15 AM.081: User switched to scene 'TITULO'
+02:51:15 AM.572: User switched to scene 'ARRIBA'
+02:51:17 AM.700: User switched to scene 'camara'
+02:51:20 AM.191: User switched to scene 'ARRIBA'
+02:51:20 AM.889: User switched to scene 'TITULO'
+02:51:21 AM.561: User switched to scene 'ARRIBA'
+02:51:22 AM.074: User switched to scene 'camara'
+02:51:27 AM.693: Stopping recording due to hotkey
+02:51:29 AM.136: Stopping recording due to hotkey
+02:51:30 AM.635: User switched to scene 'TITULO'
+02:51:32 AM.748: User switched to scene 'ARRIBA'
+02:51:34 AM.136: User switched to scene 'camara'
+02:51:36 AM.902: User switched to scene 'CONSOLA'
+02:51:43 AM.365: User switched to scene 'camara'
+02:52:47 AM.798: User switched to scene 'TITULO'
+02:53:06 AM.476: User switched to scene 'CONSOLA'
+02:53:12 AM.354: User switched to scene 'TITULO'
+02:53:13 AM.405: Stopping recording due to hotkey
+02:53:40 AM.453: User switched to scene 'ARRIBA'
+02:56:29 AM.033: User switched to scene 'camara'
+02:56:50 AM.947: User switched to scene 'CONSOLA'
+02:56:56 AM.529: Stopping recording due to hotkey
+02:58:03 AM.632: User switched to scene 'TITULO'
+02:58:05 AM.748: User switched to scene 'ARRIBA'
+02:58:15 AM.633: User switched to scene 'camara'
+02:58:24 AM.712: User switched to scene 'CONSOLA'
+02:58:39 AM.216: User switched to scene 'TITULO'
+02:58:51 AM.694: User switched to scene 'CONSOLA'
+02:58:55 AM.360: User switched to scene 'CONSOLA'
+02:58:57 AM.777: User switched to scene 'TITULO'
+02:59:24 AM.490: User switched to scene 'CONSOLA'
+02:59:28 AM.519: User switched to scene 'TITULO'
+02:59:29 AM.838: Stopping recording due to hotkey
+02:59:50 AM.885: User switched to scene 'ARRIBA'
+03:02:48 AM.073: User switched to scene 'CONSOLA'
+03:03:08 AM.654: Stopping recording due to hotkey
+03:03:10 AM.188: User switched to scene 'TITULO'
+03:03:45 AM.824: User switched to scene 'TITULO'
+03:03:48 AM.243: User switched to scene 'ARRIBA'
+03:03:51 AM.450: User switched to scene 'camara'
+03:03:57 AM.619: User switched to scene 'CONSOLA'
+03:04:11 AM.091: User switched to scene 'TITULO'
+03:04:20 AM.086: User switched to scene 'CONSOLA'
+03:04:23 AM.227: User switched to scene 'camara'
+03:04:23 AM.588: User switched to scene 'ARRIBA'
+03:04:23 AM.970: User switched to scene 'CONSOLA'
+03:04:27 AM.518: User switched to scene 'CONSOLA'
+03:04:27 AM.953: User switched to scene 'CONSOLA'
+03:04:28 AM.187: User switched to scene 'CONSOLA'
+03:04:28 AM.365: User switched to scene 'CONSOLA'
+03:04:28 AM.597: User switched to scene 'CONSOLA'
+03:04:28 AM.775: User switched to scene 'CONSOLA'
+03:04:28 AM.980: User switched to scene 'CONSOLA'
+03:04:29 AM.236: User switched to scene 'CONSOLA'
+03:04:30 AM.058: User switched to scene 'CONSOLA'
+03:04:31 AM.966: User switched to scene 'CONSOLA'
+03:04:32 AM.852: User switched to scene 'CONSOLA'
+03:04:33 AM.244: User switched to scene 'camara'
+03:04:33 AM.883: User switched to scene 'ARRIBA'
+03:04:34 AM.396: User switched to scene 'camara'
+03:04:34 AM.881: User switched to scene 'CONSOLA'
+03:04:37 AM.832: User switched to scene 'CONSOLA'
+03:04:40 AM.429: User switched to scene 'TITULO'
+03:04:41 AM.308: Stopping recording due to hotkey
+03:04:41 AM.312: Could not save scene data to /home/pslavkin/.config/obs-studio/basic/scenes/Sin_Título.json
+03:05:02 AM.755: User switched to scene 'ARRIBA'
+03:08:24 AM.131: User switched to scene 'camara'
+03:08:50 AM.080: User switched to scene 'CONSOLA'
+03:09:36 AM.074: User switched to scene 'ARRIBA'
+03:09:56 AM.828: Stopping recording due to hotkey

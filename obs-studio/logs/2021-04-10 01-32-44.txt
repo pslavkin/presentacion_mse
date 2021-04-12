@@ -1,0 +1,583 @@
+01:32:44 AM.265: CPU Name: AMD Phenom(tm) II X4 945 Processor
+01:32:44 AM.266: CPU Speed: 800.000MHz
+01:32:44 AM.266: Physical Cores: 4, Logical Cores: 4
+01:32:44 AM.266: Physical Memory: 5962MB Total, 1322MB Free
+01:32:44 AM.266: Kernel Version: Linux 4.19.0-10-amd64
+01:32:44 AM.266: Distribution: "Debian GNU/Linux" "10"
+01:32:44 AM.267: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.4
+01:32:44 AM.272: Portable mode: false
+01:32:44 AM.376: OBS 0.0.1 (linux)
+01:32:44 AM.376: ---------------------------------
+01:32:45 AM.088: ---------------------------------
+01:32:45 AM.088: audio settings reset:
+01:32:45 AM.088: 	samples per sec: 44100
+01:32:45 AM.088: 	speakers:        2
+01:32:45 AM.116: ---------------------------------
+01:32:45 AM.116: Initializing OpenGL...
+01:32:45 AM.241: Loading up OpenGL on adapter X.Org AMD CEDAR (DRM 2.50.0 / 4.19.0-10-amd64, LLVM 7.0.1)
+01:32:45 AM.242: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.6, shading language 3.30
+01:32:45 AM.311: ---------------------------------
+01:32:45 AM.311: video settings reset:
+01:32:45 AM.311: 	base resolution:   1920x1080
+01:32:45 AM.311: 	output resolution: 1280x720
+01:32:45 AM.311: 	downscale filter:  Bicubic
+01:32:45 AM.311: 	fps:               30/1
+01:32:45 AM.311: 	format:            NV12
+01:32:45 AM.311: 	YUV mode:          601/Partial
+01:32:45 AM.312: Audio monitoring device:
+01:32:45 AM.312: 	name: Default
+01:32:45 AM.312: 	id: default
+01:32:45 AM.313: ---------------------------------
+01:32:45 AM.578: No blackmagic support
+01:32:45 AM.991: VLC found, VLC video source enabled
+01:32:45 AM.991: ---------------------------------
+01:32:45 AM.991:   Loaded Modules:
+01:32:45 AM.991:     vlc-video.so
+01:32:45 AM.991:     text-freetype2.so
+01:32:45 AM.991:     rtmp-services.so
+01:32:45 AM.991:     obs-x264.so
+01:32:45 AM.991:     obs-transitions.so
+01:32:45 AM.991:     obs-outputs.so
+01:32:45 AM.991:     obs-filters.so
+01:32:45 AM.991:     obs-ffmpeg.so
+01:32:45 AM.991:     linux-v4l2.so
+01:32:45 AM.991:     linux-pulseaudio.so
+01:32:45 AM.991:     linux-jack.so
+01:32:45 AM.991:     linux-decklink.so
+01:32:45 AM.991:     linux-capture.so
+01:32:45 AM.991:     linux-alsa.so
+01:32:45 AM.991:     image-source.so
+01:32:45 AM.991:     frontend-tools.so
+01:32:45 AM.991: ---------------------------------
+01:32:45 AM.991: ==== Startup complete ===============================================
+01:32:45 AM.992: Service '' not found
+01:32:46 AM.001: All scene data cleared
+01:32:46 AM.001: ------------------------------------------------
+01:32:46 AM.003: Source ID 'wasapi_output_capture' not found
+01:32:46 AM.003: Failed to create source 'Audio del escritorio'!
+01:32:46 AM.003: Source ID 'wasapi_input_capture' not found
+01:32:46 AM.003: Failed to create source 'Mic/Aux'!
+01:32:46 AM.003: [Media Source 'Media Source 2']: settings:
+01:32:46 AM.003: 	input:                   
+01:32:46 AM.003: 	input_format:            (null)
+01:32:46 AM.003: 	speed:                   100
+01:32:46 AM.003: 	is_looping:              no
+01:32:46 AM.003: 	is_hw_decoding:          no
+01:32:46 AM.003: 	is_clear_on_media_end:   yes
+01:32:46 AM.003: 	restart_on_activate:     yes
+01:32:46 AM.003: 	close_when_inactive:     no
+01:32:46 AM.003: Source ID 'window_capture' not found
+01:32:46 AM.004: Failed to create source 'Captura de ventana 2'!
+01:32:46 AM.005: Source ID 'window_capture' not found
+01:32:46 AM.005: Failed to create source 'Captura de ventana'!
+01:32:46 AM.005: Source ID 'virtualcam-filter' not found
+01:32:46 AM.005: Failed to create source 'VirtualCam'!
+01:32:46 AM.005: Source ID 'browser_source' not found
+01:32:46 AM.005: Failed to create source 'Navegador 2'!
+01:32:46 AM.005: Source ID 'virtualcam-filter' not found
+01:32:46 AM.006: Failed to create source 'VirtualCam'!
+01:32:46 AM.006: v4l2-input: Start capture from 
+01:32:46 AM.006: v4l2-input: Unable to open device
+01:32:46 AM.006: v4l2-input: Initialization failed
+01:32:46 AM.006: [Media Source 'Media Source']: settings:
+01:32:46 AM.006: 	input:                   http://192.168.1.30:8080/video
+01:32:46 AM.006: 	input_format:            
+01:32:46 AM.006: 	speed:                   100
+01:32:46 AM.006: 	is_looping:              no
+01:32:46 AM.006: 	is_hw_decoding:          yes
+01:32:46 AM.006: 	is_clear_on_media_end:   yes
+01:32:46 AM.006: 	restart_on_activate:     no
+01:32:46 AM.006: 	close_when_inactive:     yes
+01:32:46 AM.011: Switched to scene 'ARRIBA'
+01:32:46 AM.011: ------------------------------------------------
+01:32:46 AM.011: Loaded scenes:
+01:32:46 AM.011: - scene 'ARRIBA':
+01:32:46 AM.011:     - source: 'Captura de ventana' (window_capture)
+01:32:46 AM.011:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+01:32:46 AM.011:     - source: 'Media Source' (ffmpeg_source)
+01:32:46 AM.011:     - source: 'Media Source 2' (ffmpeg_source)
+01:32:46 AM.011: - scene 'TITULO':
+01:32:46 AM.011:     - source: 'Captura de ventana' (window_capture)
+01:32:46 AM.011:     - source: 'Navegador 2' (browser_source)
+01:32:46 AM.011:         - filter: 'VirtualCam' (virtualcam-filter)
+01:32:46 AM.011: - scene 'CAMARA':
+01:32:46 AM.011:     - source: 'Navegador 2' (browser_source)
+01:32:46 AM.011:         - filter: 'VirtualCam' (virtualcam-filter)
+01:32:46 AM.011: - scene 'CONSOLA':
+01:32:46 AM.011:     - source: 'Navegador 2' (browser_source)
+01:32:46 AM.011:         - filter: 'VirtualCam' (virtualcam-filter)
+01:32:46 AM.011:     - source: 'Captura de ventana 2' (window_capture)
+01:32:46 AM.011: ------------------------------------------------
+01:32:48 AM.967: MP: Failed to open media: 'http://192.168.1.30:8080/video'
+01:35:13 AM.158: User Removed source 'Captura de ventana' (window_capture) from scene 'ARRIBA'
+01:35:16 AM.340: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'ARRIBA'
+01:35:18 AM.967: User Removed source 'Media Source' (ffmpeg_source) from scene 'ARRIBA'
+01:35:22 AM.072: User Removed source 'Media Source 2' (ffmpeg_source) from scene 'ARRIBA'
+01:35:30 AM.435: [Media Source 'Media Source']: settings:
+01:35:30 AM.435: 	input:                   
+01:35:30 AM.435: 	input_format:            (null)
+01:35:30 AM.435: 	speed:                   100
+01:35:30 AM.435: 	is_looping:              no
+01:35:30 AM.435: 	is_hw_decoding:          no
+01:35:30 AM.435: 	is_clear_on_media_end:   yes
+01:35:30 AM.435: 	restart_on_activate:     yes
+01:35:30 AM.435: 	close_when_inactive:     no
+01:35:30 AM.440: User added source 'Media Source' (ffmpeg_source) to scene 'ARRIBA'
+01:35:53 AM.246: [Media Source 'Media Source']: settings:
+01:35:53 AM.246: 	input:                   http://192.168.1.30/video
+01:35:53 AM.246: 	input_format:            
+01:35:53 AM.246: 	speed:                   100
+01:35:53 AM.246: 	is_looping:              no
+01:35:53 AM.246: 	is_hw_decoding:          no
+01:35:53 AM.246: 	is_clear_on_media_end:   yes
+01:35:53 AM.246: 	restart_on_activate:     yes
+01:35:53 AM.246: 	close_when_inactive:     yes
+01:35:53 AM.248: MP: Failed to open media: 'http://192.168.1.30/video'
+01:35:58 AM.394: MP: Failed to open media: 'http://192.168.1.30/video'
+01:36:26 AM.679: [Media Source 'Media Source']: settings:
+01:36:26 AM.679: 	input:                   http://192.168.1.30:8080/video
+01:36:26 AM.679: 	input_format:            
+01:36:26 AM.679: 	speed:                   100
+01:36:26 AM.679: 	is_looping:              no
+01:36:26 AM.679: 	is_hw_decoding:          no
+01:36:26 AM.679: 	is_clear_on_media_end:   yes
+01:36:26 AM.679: 	restart_on_activate:     yes
+01:36:26 AM.679: 	close_when_inactive:     yes
+01:37:13 AM.658: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+01:37:13 AM.660: [Media Source 'Media Source']: settings:
+01:37:13 AM.660: 	input:                   http://192.168.1.30:8080/video
+01:37:13 AM.660: 	input_format:            
+01:37:13 AM.660: 	speed:                   100
+01:37:13 AM.660: 	is_looping:              no
+01:37:13 AM.660: 	is_hw_decoding:          yes
+01:37:13 AM.660: 	is_clear_on_media_end:   yes
+01:37:13 AM.660: 	restart_on_activate:     yes
+01:37:13 AM.660: 	close_when_inactive:     yes
+01:37:13 AM.663: MP: Failed to open media: 'http://192.168.1.30:8080/video'
+01:37:19 AM.346: [Media Source 'Media Source']: settings:
+01:37:19 AM.346: 	input:                   http://192.168.1.30:8080/video
+01:37:19 AM.346: 	input_format:            
+01:37:19 AM.346: 	speed:                   100
+01:37:19 AM.346: 	is_looping:              no
+01:37:19 AM.346: 	is_hw_decoding:          no
+01:37:19 AM.346: 	is_clear_on_media_end:   yes
+01:37:19 AM.346: 	restart_on_activate:     yes
+01:37:19 AM.346: 	close_when_inactive:     yes
+01:38:04 AM.532: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'ARRIBA'
+01:38:04 AM.582: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:38:04 AM.582: 	title: xfce4-panel
+01:38:04 AM.582: 	class: xfce4-panel
+01:38:10 AM.867: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:38:10 AM.867: 	title: /bin/bash
+01:38:10 AM.867: 	class: terminator
+01:44:26 AM.146: Settings changed (outputs)
+01:44:26 AM.146: ------------------------------------------------
+01:45:18 AM.213: ---------------------------------
+01:45:18 AM.213: video settings reset:
+01:45:18 AM.213: 	base resolution:   1920x1080
+01:45:18 AM.213: 	output resolution: 1920x1080
+01:45:18 AM.213: 	downscale filter:  Bicubic
+01:45:18 AM.213: 	fps:               30/1
+01:45:18 AM.213: 	format:            NV12
+01:45:18 AM.213: 	YUV mode:          601/Partial
+01:45:18 AM.217: Settings changed (video)
+01:45:18 AM.217: ------------------------------------------------
+01:45:30 AM.444: ---------------------------------
+01:45:30 AM.444: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+01:45:30 AM.444: [x264 encoder: 'simple_h264_recording'] profile: high
+01:45:30 AM.446: [x264 encoder: 'simple_h264_recording'] settings:
+01:45:30 AM.446: 	rate_control: CRF
+01:45:30 AM.446: 	bitrate:      0
+01:45:30 AM.446: 	buffer size:  0
+01:45:30 AM.446: 	crf:          23
+01:45:30 AM.446: 	fps_num:      30
+01:45:30 AM.446: 	fps_den:      1
+01:45:30 AM.446: 	width:        1920
+01:45:30 AM.446: 	height:       1080
+01:45:30 AM.446: 	keyint:       250
+01:45:30 AM.446: 
+01:45:30 AM.466: ---------------------------------
+01:45:30 AM.484: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+01:45:30 AM.484: 
+01:45:30 AM.507: ==== Recording Start ===============================================
+01:45:30 AM.507: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 01-45-30.mp4'...
+01:47:13 AM.405: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 01-45-30.mp4' stopped
+01:47:13 AM.405: Output 'simple_file_output': stopping
+01:47:13 AM.405: Output 'simple_file_output': Total frames output: 3058
+01:47:13 AM.405: Output 'simple_file_output': Total drawn frames: 3072 (3087 attempted)
+01:47:13 AM.405: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 15 (0.5%)
+01:47:13 AM.406: ==== Recording Stop ================================================
+01:48:10 AM.397: ---------------------------------
+01:48:10 AM.397: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+01:48:10 AM.397: [x264 encoder: 'simple_h264_recording'] profile: high
+01:48:10 AM.397: [x264 encoder: 'simple_h264_recording'] settings:
+01:48:10 AM.397: 	rate_control: CRF
+01:48:10 AM.397: 	bitrate:      0
+01:48:10 AM.397: 	buffer size:  0
+01:48:10 AM.397: 	crf:          23
+01:48:10 AM.397: 	fps_num:      30
+01:48:10 AM.397: 	fps_den:      1
+01:48:10 AM.397: 	width:        1920
+01:48:10 AM.397: 	height:       1080
+01:48:10 AM.397: 	keyint:       250
+01:48:10 AM.397: 
+01:48:10 AM.401: ---------------------------------
+01:48:10 AM.401: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+01:48:10 AM.401: 
+01:48:10 AM.413: ==== Recording Start ===============================================
+01:48:10 AM.413: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 01-48-10.mp4'...
+01:50:16 AM.086: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 01-48-10.mp4' stopped
+01:50:16 AM.086: Output 'simple_file_output': stopping
+01:50:16 AM.086: Output 'simple_file_output': Total frames output: 3745
+01:50:16 AM.086: Output 'simple_file_output': Total drawn frames: 3757 (3770 attempted)
+01:50:16 AM.086: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 13 (0.3%)
+01:50:16 AM.087: ==== Recording Stop ================================================
+02:01:56 AM.101: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:01:56 AM.101: 	title: nkHACK - Mozilla Firefox
+02:01:56 AM.101: 	class: Navigator
+02:02:05 AM.900: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:05 AM.900: 	title: nkHACK - Mozilla Firefox
+02:02:05 AM.900: 	class: Navigator
+02:02:05 AM.928: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:05 AM.928: 	title: nkHACK - Mozilla Firefox
+02:02:05 AM.928: 	class: Navigator
+02:02:05 AM.993: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:05 AM.993: 	title: nkHACK - Mozilla Firefox
+02:02:05 AM.993: 	class: Navigator
+02:02:06 AM.026: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:06 AM.026: 	title: nkHACK - Mozilla Firefox
+02:02:06 AM.026: 	class: Navigator
+02:02:06 AM.629: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:06 AM.629: 	title: nkHACK - Mozilla Firefox
+02:02:06 AM.629: 	class: Navigator
+02:02:06 AM.658: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:06 AM.658: 	title: nkHACK - Mozilla Firefox
+02:02:06 AM.658: 	class: Navigator
+02:02:06 AM.760: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:06 AM.760: 	title: nkHACK - Mozilla Firefox
+02:02:06 AM.760: 	class: Navigator
+02:02:06 AM.857: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:06 AM.857: 	title: nkHACK - Mozilla Firefox
+02:02:06 AM.857: 	class: Navigator
+02:02:07 AM.159: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.159: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.159: 	class: Navigator
+02:02:07 AM.193: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.193: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.193: 	class: Navigator
+02:02:07 AM.225: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.225: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.225: 	class: Navigator
+02:02:07 AM.291: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.291: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.291: 	class: Navigator
+02:02:07 AM.559: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.559: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.559: 	class: Navigator
+02:02:07 AM.631: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.631: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.631: 	class: Navigator
+02:02:07 AM.695: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.695: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.695: 	class: Navigator
+02:02:07 AM.928: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.928: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.928: 	class: Navigator
+02:02:07 AM.958: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.958: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.958: 	class: Navigator
+02:02:07 AM.991: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:07 AM.991: 	title: nkHACK - Mozilla Firefox
+02:02:07 AM.991: 	class: Navigator
+02:02:08 AM.058: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.058: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.058: 	class: Navigator
+02:02:08 AM.259: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.259: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.259: 	class: Navigator
+02:02:08 AM.293: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.293: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.293: 	class: Navigator
+02:02:08 AM.561: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.561: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.561: 	class: Navigator
+02:02:08 AM.591: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.591: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.591: 	class: Navigator
+02:02:08 AM.859: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.859: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.859: 	class: Navigator
+02:02:08 AM.895: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.895: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.895: 	class: Navigator
+02:02:08 AM.927: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.927: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.927: 	class: Navigator
+02:02:08 AM.999: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:08 AM.999: 	title: nkHACK - Mozilla Firefox
+02:02:08 AM.999: 	class: Navigator
+02:02:09 AM.192: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:09 AM.192: 	title: nkHACK - Mozilla Firefox
+02:02:09 AM.192: 	class: Navigator
+02:02:09 AM.227: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:09 AM.227: 	title: nkHACK - Mozilla Firefox
+02:02:09 AM.227: 	class: Navigator
+02:02:09 AM.292: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:02:09 AM.292: 	title: nkHACK - Mozilla Firefox
+02:02:09 AM.292: 	class: Navigator
+02:06:00 AM.402: Last log entry repeated for 331 more lines
+02:06:00 AM.402: ---------------------------------
+02:06:00 AM.402: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+02:06:00 AM.402: [x264 encoder: 'simple_h264_recording'] profile: high
+02:06:00 AM.406: [x264 encoder: 'simple_h264_recording'] settings:
+02:06:00 AM.406: 	rate_control: CRF
+02:06:00 AM.406: 	bitrate:      0
+02:06:00 AM.406: 	buffer size:  0
+02:06:00 AM.406: 	crf:          23
+02:06:00 AM.406: 	fps_num:      30
+02:06:00 AM.406: 	fps_den:      1
+02:06:00 AM.406: 	width:        1920
+02:06:00 AM.406: 	height:       1080
+02:06:00 AM.406: 	keyint:       250
+02:06:00 AM.406: 
+02:06:00 AM.426: ---------------------------------
+02:06:00 AM.435: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+02:06:00 AM.435: 
+02:06:00 AM.456: ==== Recording Start ===============================================
+02:06:00 AM.456: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 02-06-00.mp4'...
+02:16:15 AM.435: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 02-06-00.mp4' stopped
+02:16:15 AM.437: Output 'simple_file_output': stopping
+02:16:15 AM.437: Output 'simple_file_output': Total frames output: 18413
+02:16:15 AM.437: Output 'simple_file_output': Total drawn frames: 18190 (18449 attempted)
+02:16:15 AM.437: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 259 (1.4%)
+02:16:15 AM.437: Video stopped, number of skipped frames due to encoding lag: 14/18440 (0.1%)
+02:16:15 AM.438: ==== Recording Stop ================================================
+02:16:29 AM.196: ---------------------------------
+02:16:29 AM.196: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+02:16:29 AM.196: [x264 encoder: 'simple_h264_recording'] profile: high
+02:16:29 AM.196: [x264 encoder: 'simple_h264_recording'] settings:
+02:16:29 AM.196: 	rate_control: CRF
+02:16:29 AM.196: 	bitrate:      0
+02:16:29 AM.196: 	buffer size:  0
+02:16:29 AM.196: 	crf:          23
+02:16:29 AM.196: 	fps_num:      30
+02:16:29 AM.196: 	fps_den:      1
+02:16:29 AM.196: 	width:        1920
+02:16:29 AM.196: 	height:       1080
+02:16:29 AM.196: 	keyint:       250
+02:16:29 AM.196: 
+02:16:29 AM.211: ---------------------------------
+02:16:29 AM.226: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+02:16:29 AM.226: 
+02:16:29 AM.260: ==== Recording Start ===============================================
+02:16:29 AM.260: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 02-16-29.mp4'...
+02:17:03 AM.360: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 02-16-29.mp4' stopped
+02:17:03 AM.360: Output 'simple_file_output': stopping
+02:17:03 AM.360: Output 'simple_file_output': Total frames output: 994
+02:17:03 AM.360: Output 'simple_file_output': Total drawn frames: 1009 (1023 attempted)
+02:17:03 AM.360: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 14 (1.4%)
+02:17:03 AM.361: ==== Recording Stop ================================================
+
+02:17:04 AM.623: ---------------------------------
+02:17:04 AM.623: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+02:17:04 AM.623: [x264 encoder: 'simple_h264_stream'] settings:
+02:17:04 AM.623: 	rate_control: CBR
+02:17:04 AM.623: 	bitrate:      2500
+02:17:04 AM.623: 	buffer size:  2500
+02:17:04 AM.623: 	crf:          0
+02:17:04 AM.623: 	fps_num:      30
+02:17:04 AM.623: 	fps_den:      1
+02:17:04 AM.623: 	width:        1920
+02:17:04 AM.623: 	height:       1080
+02:17:04 AM.623: 	keyint:       250
+02:17:04 AM.623: 
+02:17:04 AM.632: ---------------------------------
+02:17:04 AM.633: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+02:17:04 AM.633: 
+02:17:04 AM.634: [rtmp stream: 'simple_stream'] URL is empty
+02:17:04 AM.634: [rtmp stream: 'simple_stream'] Connection to (null) failed: -1
+02:17:04 AM.637: ==== Streaming Stop ================================================
+02:17:10 AM.365: ---------------------------------
+02:17:10 AM.365: [x264 encoder: 'simple_h264_stream'] settings:
+02:17:10 AM.365: 	rate_control: CBR
+02:17:10 AM.365: 	bitrate:      2500
+02:17:10 AM.365: 	buffer size:  2500
+02:17:10 AM.365: 	crf:          0
+02:17:10 AM.365: 	fps_num:      30
+02:17:10 AM.365: 	fps_den:      1
+02:17:10 AM.365: 	width:        1920
+02:17:10 AM.365: 	height:       1080
+02:17:10 AM.365: 	keyint:       250
+02:17:10 AM.365: 
+02:17:10 AM.366: [rtmp stream: 'simple_stream'] URL is empty
+02:17:10 AM.366: [rtmp stream: 'simple_stream'] Connection to (null) failed: -1
+02:17:10 AM.370: ==== Streaming Stop ================================================
+02:17:20 AM.042: ---------------------------------
+02:17:20 AM.042: [x264 encoder: 'simple_h264_stream'] settings:
+02:17:20 AM.042: 	rate_control: CBR
+02:17:20 AM.042: 	bitrate:      2500
+02:17:20 AM.042: 	buffer size:  2500
+02:17:20 AM.042: 	crf:          0
+02:17:20 AM.042: 	fps_num:      30
+02:17:20 AM.042: 	fps_den:      1
+02:17:20 AM.042: 	width:        1920
+02:17:20 AM.042: 	height:       1080
+02:17:20 AM.042: 	keyint:       250
+02:17:20 AM.042: 
+02:17:20 AM.042: ---------------------------------
+02:17:20 AM.042: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+02:17:20 AM.042: [x264 encoder: 'simple_h264_recording'] profile: high
+02:17:20 AM.042: [x264 encoder: 'simple_h264_recording'] settings:
+02:17:20 AM.042: 	rate_control: CRF
+02:17:20 AM.042: 	bitrate:      0
+02:17:20 AM.042: 	buffer size:  0
+02:17:20 AM.042: 	crf:          23
+02:17:20 AM.042: 	fps_num:      30
+02:17:20 AM.042: 	fps_den:      1
+02:17:20 AM.042: 	width:        1920
+02:17:20 AM.042: 	height:       1080
+02:17:20 AM.042: 	keyint:       250
+02:17:20 AM.042: 
+02:17:20 AM.047: ---------------------------------
+02:17:20 AM.047: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+02:17:20 AM.047: 
+02:17:20 AM.064: ==== Recording Start ===============================================
+02:17:20 AM.064: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 02-17-20.mp4'...
+02:18:13 AM.415: Switched to Preview/Program mode
+02:18:13 AM.415: ------------------------------------------------
+02:18:17 AM.865: Switched to scene 'ARRIBA'
+02:18:17 AM.866: Switched to regular Preview mode
+02:18:17 AM.866: ------------------------------------------------
+02:18:19 AM.364: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 02-17-20.mp4' stopped
+02:18:19 AM.364: Output 'simple_file_output': stopping
+02:18:19 AM.364: Output 'simple_file_output': Total frames output: 1750
+02:18:19 AM.364: Output 'simple_file_output': Total drawn frames: 1773 (1779 attempted)
+02:18:19 AM.364: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 6 (0.3%)
+02:18:19 AM.364: ==== Recording Stop ================================================
+02:23:04 AM.719: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:23:04 AM.719: 	title: nkHACK - Mozilla Firefox
+02:23:04 AM.719: 	class: Navigator
+02:23:17 AM.689: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+02:23:17 AM.689: [Media Source 'Media Source']: settings:
+02:23:17 AM.689: 	input:                   http://192.168.1.30:8080/video
+02:23:17 AM.689: 	input_format:            
+02:23:17 AM.689: 	speed:                   100
+02:23:17 AM.689: 	is_looping:              no
+02:23:17 AM.689: 	is_hw_decoding:          no
+02:23:17 AM.689: 	is_clear_on_media_end:   yes
+02:23:17 AM.689: 	restart_on_activate:     yes
+02:23:17 AM.689: 	close_when_inactive:     yes
+02:23:17 AM.692: MP: Failed to open media: 'http://192.168.1.30:8080/video'
+02:23:29 AM.906: ---------------------------------
+02:23:29 AM.906: [x264 encoder: 'simple_h264_stream'] settings:
+02:23:29 AM.906: 	rate_control: CBR
+02:23:29 AM.906: 	bitrate:      2500
+02:23:29 AM.906: 	buffer size:  2500
+02:23:29 AM.906: 	crf:          0
+02:23:29 AM.906: 	fps_num:      30
+02:23:29 AM.906: 	fps_den:      1
+02:23:29 AM.906: 	width:        1920
+02:23:29 AM.906: 	height:       1080
+02:23:29 AM.906: 	keyint:       250
+02:23:29 AM.906: 
+02:23:29 AM.906: ---------------------------------
+02:23:29 AM.906: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+02:23:29 AM.906: [x264 encoder: 'simple_h264_recording'] profile: high
+02:23:29 AM.906: [x264 encoder: 'simple_h264_recording'] settings:
+02:23:29 AM.906: 	rate_control: CRF
+02:23:29 AM.906: 	bitrate:      0
+02:23:29 AM.906: 	buffer size:  0
+02:23:29 AM.906: 	crf:          23
+02:23:29 AM.906: 	fps_num:      30
+02:23:29 AM.906: 	fps_den:      1
+02:23:29 AM.906: 	width:        1920
+02:23:29 AM.906: 	height:       1080
+02:23:29 AM.906: 	keyint:       250
+02:23:29 AM.906: 
+02:23:29 AM.912: ---------------------------------
+02:23:29 AM.913: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+02:23:29 AM.913: 
+02:23:29 AM.956: ==== Recording Start ===============================================
+02:23:29 AM.956: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 02-23-29.mp4'...
+02:24:01 AM.757: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 02-23-29.mp4' stopped
+02:24:01 AM.757: Output 'simple_file_output': stopping
+02:24:01 AM.757: Output 'simple_file_output': Total frames output: 929
+02:24:01 AM.757: Output 'simple_file_output': Total drawn frames: 950 (954 attempted)
+02:24:01 AM.757: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0.4%)
+02:24:01 AM.757: ==== Recording Stop ================================================
+02:44:05 AM.000: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:44:05 AM.000: 	title: thunderbench-Linker-Script-guide.pdf - Mozilla Firefox
+02:44:05 AM.000: 	class: Navigator
+02:58:40 AM.927: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:58:40 AM.927: 	title: presentacion.odp - LibreOffice Impress
+02:58:40 AM.927: 	class: libreoffice
+02:58:43 AM.669: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:58:43 AM.669: 	title: nkHACK - Mozilla Firefox
+02:58:43 AM.669: 	class: Navigator
+02:58:43 AM.673: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:58:43 AM.673: 	title: nkHACK - Mozilla Firefox
+02:58:43 AM.673: 	class: Navigator
+02:59:13 AM.787: [Media Source 'Media Source']: settings:
+02:59:13 AM.787: 	input:                   http://192.168.1.30:8080/video
+02:59:13 AM.787: 	input_format:            
+02:59:13 AM.787: 	speed:                   100
+02:59:13 AM.787: 	is_looping:              no
+02:59:13 AM.787: 	is_hw_decoding:          no
+02:59:13 AM.787: 	is_clear_on_media_end:   yes
+02:59:13 AM.787: 	restart_on_activate:     yes
+02:59:13 AM.787: 	close_when_inactive:     yes
+02:59:19 AM.385: ---------------------------------
+02:59:19 AM.385: [x264 encoder: 'simple_h264_stream'] settings:
+02:59:19 AM.385: 	rate_control: CBR
+02:59:19 AM.385: 	bitrate:      2500
+02:59:19 AM.385: 	buffer size:  2500
+02:59:19 AM.385: 	crf:          0
+02:59:19 AM.385: 	fps_num:      30
+02:59:19 AM.385: 	fps_den:      1
+02:59:19 AM.385: 	width:        1920
+02:59:19 AM.385: 	height:       1080
+02:59:19 AM.385: 	keyint:       250
+02:59:19 AM.385: 
+02:59:19 AM.392: ---------------------------------
+02:59:19 AM.392: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+02:59:19 AM.392: [x264 encoder: 'simple_h264_recording'] profile: high
+02:59:19 AM.392: [x264 encoder: 'simple_h264_recording'] settings:
+02:59:19 AM.392: 	rate_control: CRF
+02:59:19 AM.392: 	bitrate:      0
+02:59:19 AM.392: 	buffer size:  0
+02:59:19 AM.392: 	crf:          23
+02:59:19 AM.392: 	fps_num:      30
+02:59:19 AM.392: 	fps_den:      1
+02:59:19 AM.392: 	width:        1920
+02:59:19 AM.392: 	height:       1080
+02:59:19 AM.392: 	keyint:       250
+02:59:19 AM.392: 
+02:59:19 AM.420: ---------------------------------
+02:59:19 AM.422: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 128, channels: 2, channel_layout: 3
+02:59:19 AM.422: 
+02:59:19 AM.782: ==== Recording Start ===============================================
+02:59:19 AM.782: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/pslavkin/Videos/2021-04-10 02-59-19.mp4'...
+03:00:18 AM.269: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/pslavkin/Videos/2021-04-10 02-59-19.mp4' stopped
+03:00:18 AM.269: Output 'simple_file_output': stopping
+03:00:18 AM.269: Output 'simple_file_output': Total frames output: 1722
+03:00:18 AM.269: Output 'simple_file_output': Total drawn frames: 1750 (1755 attempted)
+03:00:18 AM.269: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 5 (0.3%)
+03:00:18 AM.270: ==== Recording Stop ================================================
+03:00:18 AM.274: Video stopped, number of skipped frames due to encoding lag: 60/1761 (3.4%)
+03:16:37 AM.692: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 634428
+03:16:37 AM.747: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:16:37 AM.747: 	title: thunderbench-Linker-Script-guide.pdf - Mozilla Firefox
+03:16:37 AM.747: 	class: Navigator
+03:16:40 AM.836: ==== Shutting down ==================================================
+03:16:40 AM.926: Switched to scene '(null)'
+03:16:40 AM.982: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+03:16:40 AM.989: All scene data cleared
+03:16:40 AM.989: ------------------------------------------------
+03:16:41 AM.026: Failed to fetch parent window geometry!
+03:16:41 AM.034: Failed to fetch parent window geometry!
+03:16:41 AM.055: Failed to fetch parent window geometry!
+03:16:41 AM.060: Failed to fetch parent window geometry!
+03:16:41 AM.061: Failed to fetch parent window geometry!
+03:16:41 AM.061: Failed to fetch parent window geometry!
+03:16:41 AM.062: Failed to fetch parent window geometry!
+03:16:41 AM.062: Failed to fetch parent window geometry!

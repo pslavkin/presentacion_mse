@@ -1,0 +1,168 @@
+06:34:33 PM.527: CPU Name: AMD Phenom(tm) II X4 945 Processor
+06:34:33 PM.527: CPU Speed: 800.000MHz
+06:34:33 PM.527: Physical Cores: 4, Logical Cores: 4
+06:34:33 PM.527: Physical Memory: 5962MB Total, 2709MB Free
+06:34:33 PM.527: Kernel Version: Linux 4.19.0-10-amd64
+06:34:33 PM.528: Distribution: "Debian GNU/Linux" "10"
+06:34:33 PM.528: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.4
+06:34:33 PM.532: Portable mode: false
+06:34:33 PM.608: OBS 0.0.1 (linux)
+06:34:33 PM.608: ---------------------------------
+06:34:34 PM.352: ---------------------------------
+06:34:34 PM.352: audio settings reset:
+06:34:34 PM.352: 	samples per sec: 44100
+06:34:34 PM.352: 	speakers:        2
+06:34:34 PM.381: ---------------------------------
+06:34:34 PM.381: Initializing OpenGL...
+06:34:34 PM.520: Loading up OpenGL on adapter X.Org AMD CEDAR (DRM 2.50.0 / 4.19.0-10-amd64, LLVM 7.0.1)
+06:34:34 PM.520: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.6, shading language 3.30
+06:34:34 PM.727: ---------------------------------
+06:34:34 PM.728: video settings reset:
+06:34:34 PM.728: 	base resolution:   1920x1080
+06:34:34 PM.728: 	output resolution: 1280x720
+06:34:34 PM.728: 	downscale filter:  Bicubic
+06:34:34 PM.728: 	fps:               30/1
+06:34:34 PM.728: 	format:            NV12
+06:34:34 PM.728: 	YUV mode:          601/Partial
+06:34:34 PM.732: Audio monitoring device:
+06:34:34 PM.732: 	name: Default
+06:34:34 PM.732: 	id: default
+06:34:34 PM.732: ---------------------------------
+06:34:35 PM.031: No blackmagic support
+06:34:35 PM.520: VLC found, VLC video source enabled
+06:34:35 PM.521: ---------------------------------
+06:34:35 PM.521:   Loaded Modules:
+06:34:35 PM.521:     vlc-video.so
+06:34:35 PM.521:     text-freetype2.so
+06:34:35 PM.521:     rtmp-services.so
+06:34:35 PM.521:     obs-x264.so
+06:34:35 PM.521:     obs-transitions.so
+06:34:35 PM.521:     obs-outputs.so
+06:34:35 PM.521:     obs-filters.so
+06:34:35 PM.521:     obs-ffmpeg.so
+06:34:35 PM.521:     linux-v4l2.so
+06:34:35 PM.521:     linux-pulseaudio.so
+06:34:35 PM.521:     linux-jack.so
+06:34:35 PM.521:     linux-decklink.so
+06:34:35 PM.521:     linux-capture.so
+06:34:35 PM.521:     linux-alsa.so
+06:34:35 PM.521:     image-source.so
+06:34:35 PM.521:     frontend-tools.so
+06:34:35 PM.521: ---------------------------------
+06:34:35 PM.521: ==== Startup complete ===============================================
+06:34:35 PM.523: Service '' not found
+06:34:35 PM.529: All scene data cleared
+06:34:35 PM.529: ------------------------------------------------
+06:34:35 PM.530: Source ID 'wasapi_output_capture' not found
+06:34:35 PM.531: Failed to create source 'Audio del escritorio'!
+06:34:35 PM.531: Source ID 'wasapi_input_capture' not found
+06:34:35 PM.531: Failed to create source 'Mic/Aux'!
+06:34:35 PM.531: [Media Source 'Media Source']: settings:
+06:34:35 PM.531: 	input:                   http://192.168.1.30:8080/video
+06:34:35 PM.531: 	input_format:            
+06:34:35 PM.531: 	speed:                   100
+06:34:35 PM.531: 	is_looping:              no
+06:34:35 PM.531: 	is_hw_decoding:          yes
+06:34:35 PM.531: 	is_clear_on_media_end:   yes
+06:34:35 PM.531: 	restart_on_activate:     no
+06:34:35 PM.531: 	close_when_inactive:     yes
+06:34:35 PM.535: v4l2-input: Start capture from 
+06:34:35 PM.535: v4l2-input: Unable to open device
+06:34:35 PM.535: v4l2-input: Initialization failed
+06:34:35 PM.535: Source ID 'virtualcam-filter' not found
+06:34:35 PM.535: Failed to create source 'VirtualCam'!
+06:34:35 PM.535: Source ID 'browser_source' not found
+06:34:35 PM.535: Failed to create source 'Navegador 2'!
+06:34:35 PM.536: Source ID 'virtualcam-filter' not found
+06:34:35 PM.536: Failed to create source 'VirtualCam'!
+06:34:35 PM.536: Source ID 'window_capture' not found
+06:34:35 PM.536: Failed to create source 'Captura de ventana'!
+06:34:35 PM.537: Source ID 'window_capture' not found
+06:34:35 PM.537: Failed to create source 'Captura de ventana 2'!
+06:34:35 PM.538: Switched to scene 'ARRIBA'
+06:34:35 PM.539: ------------------------------------------------
+06:34:35 PM.539: Loaded scenes:
+06:34:35 PM.539: - scene 'ARRIBA':
+06:34:35 PM.539:     - source: 'Captura de ventana' (window_capture)
+06:34:35 PM.539:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+06:34:35 PM.539:     - source: 'Media Source' (ffmpeg_source)
+06:34:35 PM.539: - scene 'TITULO':
+06:34:35 PM.539:     - source: 'Captura de ventana' (window_capture)
+06:34:35 PM.539:     - source: 'Navegador 2' (browser_source)
+06:34:35 PM.539:         - filter: 'VirtualCam' (virtualcam-filter)
+06:34:35 PM.539: - scene 'CAMARA':
+06:34:35 PM.539:     - source: 'Navegador 2' (browser_source)
+06:34:35 PM.539:         - filter: 'VirtualCam' (virtualcam-filter)
+06:34:35 PM.539: - scene 'CONSOLA':
+06:34:35 PM.539:     - source: 'Navegador 2' (browser_source)
+06:34:35 PM.539:         - filter: 'VirtualCam' (virtualcam-filter)
+06:34:35 PM.540:     - source: 'Captura de ventana 2' (window_capture)
+06:34:35 PM.540: ------------------------------------------------
+06:34:48 PM.919: [Media Source 'Media Source 2']: settings:
+06:34:48 PM.919: 	input:                   
+06:34:48 PM.919: 	input_format:            (null)
+06:34:48 PM.919: 	speed:                   100
+06:34:48 PM.919: 	is_looping:              no
+06:34:48 PM.919: 	is_hw_decoding:          no
+06:34:48 PM.919: 	is_clear_on_media_end:   yes
+06:34:48 PM.919: 	restart_on_activate:     yes
+06:34:48 PM.919: 	close_when_inactive:     no
+06:34:48 PM.924: User added source 'Media Source 2' (ffmpeg_source) to scene 'ARRIBA'
+06:35:07 PM.789: ==== Shutting down ==================================================
+06:35:07 PM.793: Switched to scene '(null)'
+06:35:08 PM.613: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+06:35:08 PM.614: All scene data cleared
+06:35:08 PM.614: ------------------------------------------------
+06:35:08 PM.676: Freeing OBS context data
+06:35:08 PM.729: [Scripting] Total detached callbacks: 0
+06:35:08 PM.736: == Profiler Results =============================
+06:35:08 PM.736: run_program_init: 2871.3 ms
+06:35:08 PM.736:  ┣OBSApp::AppInit: 18.549 ms
+06:35:08 PM.736:  ┃ ┗OBSApp::InitLocale: 6.213 ms
+06:35:08 PM.736:  ┗OBSApp::OBSInit: 2215.23 ms
+06:35:08 PM.736:    ┣obs_startup: 5.176 ms
+06:35:08 PM.736:    ┗OBSBasic::OBSInit: 1288.83 ms
+06:35:08 PM.736:      ┣OBSBasic::InitBasicConfig: 0.139 ms
+06:35:08 PM.736:      ┣OBSBasic::ResetAudio: 0.207 ms
+06:35:08 PM.736:      ┣OBSBasic::ResetVideo: 379.803 ms
+06:35:08 PM.736:      ┣OBSBasic::InitOBSCallbacks: 0.018 ms
+06:35:08 PM.736:      ┣OBSBasic::InitHotkeys: 0.134 ms
+06:35:08 PM.736:      ┣obs_load_all_modules: 788.312 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(frontend-tools.so): 196.029 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(image-source.so): 0.009 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(linux-capture.so): 0.757 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(linux-decklink.so): 0.636 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.044 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(linux-v4l2.so): 0.007 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(obs-ffmpeg.so): 10.873 ms
+06:35:08 PM.736:      ┃ ┃ ┗nvenc_check: 10.84 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(obs-filters.so): 0.023 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(obs-outputs.so): 0.005 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(obs-transitions.so): 0.014 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(rtmp-services.so): 9.328 ms
+06:35:08 PM.736:      ┃ ┣obs_init_module(text-freetype2.so): 0.026 ms
+06:35:08 PM.736:      ┃ ┗obs_init_module(vlc-video.so): 29.539 ms
+06:35:08 PM.736:      ┣OBSBasic::ResetOutputs: 1.635 ms
+06:35:08 PM.736:      ┣OBSBasic::CreateHotkeys: 0.041 ms
+06:35:08 PM.736:      ┣OBSBasic::InitService: 2.648 ms
+06:35:08 PM.736:      ┣OBSBasic::InitPrimitives: 0.518 ms
+06:35:08 PM.736:      ┗OBSBasic::Load: 22.057 ms
+06:35:08 PM.736: obs_hotkey_thread(25 ms): min=0.093 ms, median=0.275 ms, max=17.245 ms, 99th percentile=3.348 ms, 100% below 25 ms
+06:35:08 PM.736: audio_thread(Audio): min=0.001 ms, median=0.087 ms, max=13.832 ms, 99th percentile=0.156 ms
+06:35:08 PM.736: obs_graphics_thread(33.3333 ms): min=0.215 ms, median=1.542 ms, max=30.639 ms, 99th percentile=9.713 ms, 100% below 33.333 ms
+06:35:08 PM.736:  ┣tick_sources: min=0.001 ms, median=0.02 ms, max=6.366 ms, 99th percentile=0.045 ms
+06:35:08 PM.736:  ┣output_frame: min=0.175 ms, median=0.532 ms, max=29.872 ms, 99th percentile=2.068 ms
+06:35:08 PM.736:  ┃ ┗gs_context(video->graphics): min=0.174 ms, median=0.531 ms, max=29.872 ms, 99th percentile=2.067 ms
+06:35:08 PM.736:  ┃   ┣render_video: min=0.047 ms, median=0.227 ms, max=29.718 ms, 99th percentile=0.883 ms
+06:35:08 PM.736:  ┃   ┃ ┗render_main_texture: min=0.043 ms, median=0.219 ms, max=29.712 ms, 99th percentile=0.872 ms
+06:35:08 PM.736:  ┃   ┗gs_flush: min=0.083 ms, median=0.227 ms, max=7.126 ms, 99th percentile=1.039 ms
+06:35:08 PM.736:  ┗render_displays: min=0.005 ms, median=0.949 ms, max=16.784 ms, 99th percentile=8.808 ms
+06:35:08 PM.736: =================================================
+06:35:08 PM.736: == Profiler Time Between Calls ==================
+06:35:08 PM.736: obs_hotkey_thread(25 ms): min=25.168 ms, median=25.373 ms, max=42.332 ms, 88.0174% within ±2% of 25 ms (0% lower, 11.9826% higher)
+06:35:08 PM.736: obs_graphics_thread(33.3333 ms): min=12.504 ms, median=33.334 ms, max=54.151 ms, 98.2301% within ±2% of 33.333 ms (0.884956% lower, 0.884956% higher)
+06:35:08 PM.736: =================================================
+06:35:08 PM.749: Number of memory leaks: 0

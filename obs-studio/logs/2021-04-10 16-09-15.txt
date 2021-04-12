@@ -1,0 +1,331 @@
+04:09:15 PM.332: CPU Name: AMD Phenom(tm) II X4 945 Processor
+04:09:15 PM.332: CPU Speed: 800.000MHz
+04:09:15 PM.333: Physical Cores: 4, Logical Cores: 4
+04:09:15 PM.333: Physical Memory: 5962MB Total, 1190MB Free
+04:09:15 PM.333: Kernel Version: Linux 4.19.0-10-amd64
+04:09:15 PM.333: Distribution: "Debian GNU/Linux" "10"
+04:09:15 PM.333: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.4
+04:09:15 PM.336: Portable mode: false
+04:09:15 PM.377: OBS 0.0.1 (linux)
+04:09:15 PM.377: ---------------------------------
+04:09:15 PM.632: ---------------------------------
+04:09:15 PM.632: audio settings reset:
+04:09:15 PM.632: 	samples per sec: 44100
+04:09:15 PM.632: 	speakers:        2
+04:09:15 PM.662: ---------------------------------
+04:09:15 PM.662: Initializing OpenGL...
+04:09:15 PM.739: Loading up OpenGL on adapter X.Org AMD CEDAR (DRM 2.50.0 / 4.19.0-10-amd64, LLVM 7.0.1)
+04:09:15 PM.739: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.6, shading language 3.30
+04:09:15 PM.801: ---------------------------------
+04:09:15 PM.801: video settings reset:
+04:09:15 PM.801: 	base resolution:   1920x1080
+04:09:15 PM.801: 	output resolution: 1920x1080
+04:09:15 PM.801: 	downscale filter:  Bicubic
+04:09:15 PM.801: 	fps:               30/1
+04:09:15 PM.801: 	format:            NV12
+04:09:15 PM.801: 	YUV mode:          601/Partial
+04:09:15 PM.803: Audio monitoring device:
+04:09:15 PM.803: 	name: Default
+04:09:15 PM.803: 	id: default
+04:09:15 PM.803: ---------------------------------
+04:09:16 PM.001: No blackmagic support
+04:09:16 PM.146: VLC found, VLC video source enabled
+04:09:16 PM.146: ---------------------------------
+04:09:16 PM.146:   Loaded Modules:
+04:09:16 PM.146:     vlc-video.so
+04:09:16 PM.146:     text-freetype2.so
+04:09:16 PM.146:     rtmp-services.so
+04:09:16 PM.146:     obs-x264.so
+04:09:16 PM.146:     obs-transitions.so
+04:09:16 PM.146:     obs-outputs.so
+04:09:16 PM.146:     obs-filters.so
+04:09:16 PM.146:     obs-ffmpeg.so
+04:09:16 PM.146:     linux-v4l2.so
+04:09:16 PM.146:     linux-pulseaudio.so
+04:09:16 PM.146:     linux-jack.so
+04:09:16 PM.146:     linux-decklink.so
+04:09:16 PM.146:     linux-capture.so
+04:09:16 PM.147:     linux-alsa.so
+04:09:16 PM.147:     image-source.so
+04:09:16 PM.147:     frontend-tools.so
+04:09:16 PM.147: ---------------------------------
+04:09:16 PM.147: ==== Startup complete ===============================================
+04:09:16 PM.148: Service '' not found
+04:09:16 PM.154: All scene data cleared
+04:09:16 PM.154: ------------------------------------------------
+04:09:16 PM.157: Source ID 'wasapi_output_capture' not found
+04:09:16 PM.158: Failed to create source 'Audio del escritorio'!
+04:09:16 PM.158: Source ID 'wasapi_input_capture' not found
+04:09:16 PM.158: Failed to create source 'Mic/Aux'!
+04:09:16 PM.194: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:09:16 PM.194: 	title: nkHACK - Mozilla Firefox
+04:09:16 PM.194: 	class: Navigator
+04:09:16 PM.195: [Media Source 'Media Source']: settings:
+04:09:16 PM.195: 	input:                   http://192.168.1.30:8080/video
+04:09:16 PM.195: 	input_format:            
+04:09:16 PM.195: 	speed:                   100
+04:09:16 PM.195: 	is_looping:              no
+04:09:16 PM.195: 	is_hw_decoding:          no
+04:09:16 PM.195: 	is_clear_on_media_end:   yes
+04:09:16 PM.195: 	restart_on_activate:     yes
+04:09:16 PM.195: 	close_when_inactive:     yes
+04:09:16 PM.195: Source ID 'virtualcam-filter' not found
+04:09:16 PM.195: Failed to create source 'VirtualCam'!
+04:09:16 PM.195: Source ID 'browser_source' not found
+04:09:16 PM.195: Failed to create source 'Navegador 2'!
+04:09:16 PM.195: Source ID 'virtualcam-filter' not found
+04:09:16 PM.195: Failed to create source 'VirtualCam'!
+04:09:16 PM.196: Source ID 'window_capture' not found
+04:09:16 PM.196: Failed to create source 'Captura de ventana'!
+04:09:16 PM.197: Source ID 'window_capture' not found
+04:09:16 PM.197: Failed to create source 'Captura de ventana 2'!
+04:09:16 PM.197: Switched to scene 'ARRIBA'
+04:09:16 PM.197: ------------------------------------------------
+04:09:16 PM.197: Loaded scenes:
+04:09:16 PM.197: - scene 'ARRIBA':
+04:09:16 PM.200:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+04:09:16 PM.200:     - source: 'Media Source' (ffmpeg_source)
+04:09:16 PM.200: - scene 'TITULO':
+04:09:16 PM.200:     - source: 'Captura de ventana' (window_capture)
+04:09:16 PM.200:     - source: 'Navegador 2' (browser_source)
+04:09:16 PM.200:         - filter: 'VirtualCam' (virtualcam-filter)
+04:09:16 PM.200: - scene 'CAMARA':
+04:09:16 PM.200:     - source: 'Navegador 2' (browser_source)
+04:09:16 PM.200:         - filter: 'VirtualCam' (virtualcam-filter)
+04:09:16 PM.200: - scene 'CONSOLA':
+04:09:16 PM.200:     - source: 'Navegador 2' (browser_source)
+04:09:16 PM.200:         - filter: 'VirtualCam' (virtualcam-filter)
+04:09:16 PM.200:     - source: 'Captura de ventana 2' (window_capture)
+04:09:16 PM.200: ------------------------------------------------
+04:09:37 PM.657: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+04:09:37 PM.657: [Media Source 'Media Source']: settings:
+04:09:37 PM.657: 	input:                   http://192.168.1.200:8080/video
+04:09:37 PM.657: 	input_format:            
+04:09:37 PM.657: 	speed:                   100
+04:09:37 PM.657: 	is_looping:              no
+04:09:37 PM.657: 	is_hw_decoding:          no
+04:09:37 PM.657: 	is_clear_on_media_end:   yes
+04:09:37 PM.657: 	restart_on_activate:     yes
+04:09:37 PM.657: 	close_when_inactive:     yes
+04:09:37 PM.658: MP: Failed to open media: 'http://192.168.1.200:8080/video'
+04:09:39 PM.747: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:09:39 PM.747: 	title: xfce4-panel
+04:09:39 PM.747: 	class: xfce4-panel
+04:09:44 PM.047: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:09:44 PM.047: 	title: nkHACK - Mozilla Firefox
+04:09:44 PM.047: 	class: Navigator
+04:09:47 PM.177: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:09:47 PM.177: 	title: nkHACK - Mozilla Firefox
+04:09:47 PM.177: 	class: Navigator
+04:09:48 PM.048: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:09:48 PM.048: 	title: nkHACK - Mozilla Firefox
+04:09:48 PM.048: 	class: Navigator
+04:09:48 PM.389: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:09:48 PM.389: 	title: nkHACK - Mozilla Firefox
+04:09:48 PM.389: 	class: Navigator
+04:09:48 PM.848: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:09:48 PM.848: 	title: nkHACK - Mozilla Firefox
+04:09:48 PM.848: 	class: Navigator
+04:10:21 PM.738: [Media Source 'Media Source']: settings:
+04:10:21 PM.738: 	input:                   http://192.168.1.200:8080/video
+04:10:21 PM.738: 	input_format:            
+04:10:21 PM.738: 	speed:                   100
+04:10:21 PM.738: 	is_looping:              no
+04:10:21 PM.738: 	is_hw_decoding:          no
+04:10:21 PM.738: 	is_clear_on_media_end:   yes
+04:10:21 PM.738: 	restart_on_activate:     yes
+04:10:21 PM.738: 	close_when_inactive:     yes
+04:10:30 PM.156: [Media Source 'Media Source']: settings:
+04:10:30 PM.156: 	input:                   http://192.168.1.200:8080/video
+04:10:30 PM.156: 	input_format:            
+04:10:30 PM.156: 	speed:                   100
+04:10:30 PM.156: 	is_looping:              no
+04:10:30 PM.156: 	is_hw_decoding:          no
+04:10:30 PM.156: 	is_clear_on_media_end:   yes
+04:10:30 PM.156: 	restart_on_activate:     yes
+04:10:30 PM.156: 	close_when_inactive:     yes
+04:10:49 PM.422: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:10:49 PM.422: 	title: nkHACK - Mozilla Firefox
+04:10:49 PM.422: 	class: Navigator
+04:35:53 PM.496: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:35:53 PM.496: 	title: xfce4-panel
+04:35:53 PM.496: 	class: xfce4-panel
+04:35:58 PM.314: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:35:58 PM.314: 	title: IP Webcam - Mozilla Firefox
+04:35:58 PM.314: 	class: Navigator
+04:36:01 PM.374: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:36:01 PM.374: 	title: xfce4-panel
+04:36:01 PM.374: 	class: xfce4-panel
+04:36:12 PM.117: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:36:12 PM.117: 	title: IP Webcam - Mozilla Firefox
+04:36:12 PM.117: 	class: Navigator
+04:36:25 PM.716: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:36:25 PM.716: 	title: nkHACK - Mozilla Firefox
+04:36:25 PM.716: 	class: Navigator
+04:36:42 PM.344: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:36:42 PM.344: 	title: xfce4-panel
+04:36:42 PM.344: 	class: xfce4-panel
+04:36:45 PM.113: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:36:45 PM.113: 	title: nkHACK - Mozilla Firefox
+04:36:45 PM.113: 	class: Navigator
+04:57:33 PM.689: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:57:33 PM.689: 	title: nkHACK - Mozilla Firefox
+04:57:33 PM.689: 	class: Navigator
+04:58:15 PM.594: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:58:15 PM.594: 	title: nkHACK - Mozilla Firefox
+04:58:15 PM.594: 	class: Navigator
+04:58:35 PM.699: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:58:35 PM.699: 	title: nkHACK - Mozilla Firefox
+04:58:35 PM.699: 	class: Navigator
+05:25:33 PM.494: User switched to scene 'TITULO'
+05:25:40 PM.377: User Removed source 'Captura de ventana' (window_capture) from scene 'TITULO'
+05:25:43 PM.239: User Removed source 'Navegador 2' (browser_source) from scene 'TITULO'
+05:25:45 PM.219: User switched to scene 'ARRIBA'
+05:25:56 PM.328: User switched to scene 'TITULO'
+05:25:56 PM.696: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+05:26:23 PM.101: User switched to scene 'ARRIBA'
+05:26:24 PM.224: User switched to scene 'TITULO'
+05:26:24 PM.647: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+05:26:32 PM.826: User switched to scene 'ARRIBA'
+05:26:38 PM.480: User switched to scene 'TITULO'
+05:26:38 PM.893: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+05:26:39 PM.322: User added source 'Media Source' (ffmpeg_source) to scene 'TITULO'
+05:26:40 PM.514: User switched to scene 'ARRIBA'
+05:26:45 PM.882: User switched to scene 'TITULO'
+05:26:47 PM.283: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'TITULO'
+05:27:42 PM.344: User Removed source 'Window Capture (Xcomposite)' (xcomposite_input) from scene 'TITULO'
+05:27:45 PM.200: User added source 'Media Source' (ffmpeg_source) to scene 'TITULO'
+05:27:54 PM.570: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+05:27:54 PM.571: [Media Source 'Media Source']: settings:
+05:27:54 PM.571: 	input:                   http://192.168.1.30:8080/video
+05:27:54 PM.571: 	input_format:            
+05:27:54 PM.571: 	speed:                   100
+05:27:54 PM.571: 	is_looping:              no
+05:27:54 PM.571: 	is_hw_decoding:          no
+05:27:54 PM.571: 	is_clear_on_media_end:   yes
+05:27:54 PM.571: 	restart_on_activate:     yes
+05:27:54 PM.571: 	close_when_inactive:     yes
+05:27:54 PM.571: MP: Failed to open media: 'http://192.168.1.30:8080/video'
+05:28:09 PM.838: [Media Source 'Media Source']: settings:
+05:28:09 PM.838: 	input:                   http://192.168.1.200:8080/video
+05:28:09 PM.838: 	input_format:            
+05:28:09 PM.838: 	speed:                   100
+05:28:09 PM.838: 	is_looping:              no
+05:28:09 PM.838: 	is_hw_decoding:          no
+05:28:09 PM.838: 	is_clear_on_media_end:   yes
+05:28:09 PM.838: 	restart_on_activate:     yes
+05:28:09 PM.838: 	close_when_inactive:     yes
+05:28:18 PM.212: User Removed source 'Media Source' (ffmpeg_source) from scene 'TITULO'
+05:28:22 PM.911: [Media Source 'Media Source 2']: settings:
+05:28:22 PM.911: 	input:                   
+05:28:22 PM.911: 	input_format:            (null)
+05:28:22 PM.911: 	speed:                   100
+05:28:22 PM.911: 	is_looping:              no
+05:28:22 PM.911: 	is_hw_decoding:          no
+05:28:22 PM.911: 	is_clear_on_media_end:   yes
+05:28:22 PM.911: 	restart_on_activate:     yes
+05:28:22 PM.911: 	close_when_inactive:     no
+05:28:22 PM.914: User added source 'Media Source 2' (ffmpeg_source) to scene 'TITULO'
+05:28:52 PM.471: [Media Source 'Media Source 2']: settings:
+05:28:52 PM.471: 	input:                   http://192.168.1.30:8080/video
+05:28:52 PM.471: 	input_format:            
+05:28:52 PM.471: 	speed:                   100
+05:28:52 PM.471: 	is_looping:              no
+05:28:52 PM.471: 	is_hw_decoding:          no
+05:28:52 PM.471: 	is_clear_on_media_end:   yes
+05:28:52 PM.471: 	restart_on_activate:     yes
+05:28:52 PM.471: 	close_when_inactive:     yes
+05:30:00 PM.863: User switched to scene 'ARRIBA'
+05:30:01 PM.242: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+05:30:07 PM.713: User switched to scene 'TITULO'
+05:30:08 PM.681: User added source 'Window Capture (Xcomposite)' (xcomposite_input) to scene 'TITULO'
+05:30:35 PM.218: User switched to scene 'CAMARA'
+05:30:35 PM.580: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+05:30:35 PM.628: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+05:31:13 PM.909: User switched to scene 'TITULO'
+05:31:54 PM.595: User switched to scene 'ARRIBA'
+05:31:54 PM.951: MP: av_read_frame failed: Immediate exit requested (-1414092869)
+05:32:22 PM.236: Switched to Preview/Program mode
+05:32:22 PM.236: ------------------------------------------------
+05:32:40 PM.461: User switched to scene 'CAMARA'
+05:32:40 PM.999: User switched to scene 'TITULO'
+05:32:58 PM.472: [Media Source 'Media Source 2']: settings:
+05:32:58 PM.472: 	input:                   http://192.168.1.30:8080/video
+05:32:58 PM.472: 	input_format:            
+05:32:58 PM.472: 	speed:                   100
+05:32:58 PM.472: 	is_looping:              no
+05:32:58 PM.472: 	is_hw_decoding:          no
+05:32:58 PM.472: 	is_clear_on_media_end:   no
+05:32:58 PM.472: 	restart_on_activate:     yes
+05:32:58 PM.472: 	close_when_inactive:     yes
+05:33:05 PM.571: [Media Source 'Media Source 2']: settings:
+05:33:05 PM.571: 	input:                   http://192.168.1.30:8080/video
+05:33:05 PM.571: 	input_format:            
+05:33:05 PM.571: 	speed:                   100
+05:33:05 PM.571: 	is_looping:              no
+05:33:05 PM.571: 	is_hw_decoding:          no
+05:33:05 PM.571: 	is_clear_on_media_end:   no
+05:33:05 PM.571: 	restart_on_activate:     no
+05:33:05 PM.571: 	close_when_inactive:     yes
+05:33:13 PM.582: Switched to scene 'ARRIBA'
+05:33:13 PM.583: Switched to regular Preview mode
+05:33:13 PM.583: ------------------------------------------------
+05:33:15 PM.205: User switched to scene 'TITULO'
+05:33:16 PM.216: User switched to scene 'ARRIBA'
+05:33:22 PM.103: User switched to scene 'TITULO'
+05:33:22 PM.707: User switched to scene 'ARRIBA'
+05:33:24 PM.118: User switched to scene 'TITULO'
+05:33:24 PM.359: User switched to scene 'ARRIBA'
+05:33:24 PM.700: User switched to scene 'TITULO'
+05:33:24 PM.966: User switched to scene 'ARRIBA'
+05:33:25 PM.662: User switched to scene 'TITULO'
+05:33:26 PM.630: User switched to scene 'ARRIBA'
+05:33:28 PM.262: User switched to scene 'TITULO'
+05:33:29 PM.263: User switched to scene 'ARRIBA'
+05:33:30 PM.481: User switched to scene 'TITULO'
+05:33:31 PM.417: User switched to scene 'ARRIBA'
+05:33:32 PM.038: User switched to scene 'TITULO'
+05:33:32 PM.331: User switched to scene 'ARRIBA'
+05:33:32 PM.644: User switched to scene 'TITULO'
+05:33:32 PM.889: User switched to scene 'ARRIBA'
+05:33:33 PM.189: User switched to scene 'TITULO'
+05:33:33 PM.425: User switched to scene 'ARRIBA'
+05:33:33 PM.709: User switched to scene 'TITULO'
+05:33:34 PM.025: User switched to scene 'ARRIBA'
+05:33:37 PM.748: Switched to Preview/Program mode
+05:33:37 PM.748: ------------------------------------------------
+05:33:40 PM.769: User switched to scene 'TITULO'
+05:33:43 PM.421: User switched to scene 'ARRIBA'
+05:33:44 PM.923: User switched to scene 'TITULO'
+05:33:50 PM.277: User switched to scene 'ARRIBA'
+05:33:51 PM.519: User switched to scene 'TITULO'
+05:35:41 PM.566: Settings changed (hotkeys)
+05:35:41 PM.566: ------------------------------------------------
+05:35:46 PM.417: User switched to scene 'ARRIBA'
+05:35:47 PM.590: User switched to scene 'TITULO'
+05:35:49 PM.154: User switched to scene 'ARRIBA'
+05:35:49 PM.439: User switched to scene 'TITULO'
+05:35:49 PM.686: User switched to scene 'ARRIBA'
+05:35:49 PM.820: User switched to scene 'TITULO'
+05:35:49 PM.837: User switched to scene 'ARRIBA'
+05:35:49 PM.871: User switched to scene 'TITULO'
+05:35:50 PM.297: User switched to scene 'TITULO'
+05:35:50 PM.626: User switched to scene 'ARRIBA'
+05:36:06 PM.800: Switched to scene 'ARRIBA'
+05:36:06 PM.801: Switched to regular Preview mode
+05:36:06 PM.801: ------------------------------------------------
+05:36:24 PM.949: User switched to scene 'TITULO'
+05:36:27 PM.957: User switched to scene 'TITULO'
+05:36:42 PM.951: User switched to scene 'TITULO'
+05:36:55 PM.693: User switched to scene 'TITULO'
+05:37:18 PM.023: Settings changed (hotkeys)
+05:37:18 PM.023: ------------------------------------------------
+05:37:33 PM.292: User switched to scene 'TITULO'
+05:37:34 PM.204: User switched to scene 'ARRIBA'
+05:37:35 PM.123: User switched to scene 'TITULO'
+05:37:36 PM.439: User switched to scene 'ARRIBA'
+05:38:11 PM.406: User switched to scene 'ARRIBA'
+05:38:13 PM.168: User switched to scene 'ARRIBA'
+05:38:46 PM.832: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+05:38:46 PM.832: 	title: nkHACK - Mozilla Firefox
+05:38:46 PM.832: 	class: Navigator
